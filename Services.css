@@ -1,0 +1,1246 @@
+body {
+    font-size:10pt;
+    background-color: #BDE4FF;
+}
+
+body.title {
+    background-color: #BDE4FF;      /*  background-color: white;  */
+}
+
+a:unknown {
+    color: #000000;
+    text-decoration: none
+}
+
+a:active {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a:link {
+    color: #0073BF;
+    text-decoration: underline
+}
+
+a:visited {
+    color: #0073BF;
+    text-decoration: underline
+}
+
+a:hover {
+    color: #0073BF;
+    text-decoration: underline
+}
+
+a.product {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+a.product:link {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+a.product:visited {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+a.product:hover {
+    color: #004D80;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+a.toggle {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.toggle:link {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.toggle:visited {
+    d color: #0073BF;
+    text-decoration: none
+}
+
+a.toggle:hover {
+    color: #0073BF;
+    text-decoration: underline
+}
+
+a.globalLinkBar {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+a.globalLinkBar:link {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+a.globalLinkBar:visited {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+a.globalLinkBar:hover {
+    color: #004D80;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+a.globalLink {
+    text-decoration: none
+}
+
+a.globalLink:link {
+    text-decoration: none
+}
+
+a.globalLink:visited {
+    text-decoration: none
+}
+
+a.globalLink:hover {
+    text-decoration: underline
+}
+
+a.Topmenu1 {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a.Topmenu1:link {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a.Topmenu1:active {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a.Topmenu1:visited {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a.Topmenu1:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Topmenu2 {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Topmenu2:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Topmenu2:active {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a.Topmenu2:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Topmenu2:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.tableNavLinkedPageNo {
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-decoration: none
+}
+
+a.tableNavLinkedPageNo:link {
+    color: #0073BF
+}
+
+a.tableNavLinkedPageNo:visited {
+    color: #0073BF
+}
+
+a.tableNavLinkedPageNo:active {
+    color: #0073BF
+}
+
+a.tableNavLinkedPageNo:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar1Selected {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.Navbar1Selected:visited {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.Navbar1Selected:active {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.Navbar1Hover {
+    color: #000000;
+    text-decoration: underline
+}
+
+a.Navbar0 {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar0:active {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar0:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar0:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar0:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1 {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1:active {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar1:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar2 {
+    color: #000000;
+    font-size: 8pt;
+    text-decoration: none
+}
+
+a.Navbar2:active {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar2:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar2:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar2:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar3 {
+    color: #000000;
+    font-size: 8pt;
+    text-decoration: none
+}
+
+a.Navbar3:active {
+    color: #000000;
+    font-size: 8pt;
+    text-decoration: none
+}
+
+a.Navbar3:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar3:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar3:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+INPUT.Navbar0 {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Navbar0Disabled {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Navbar1 {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Navbar1Disabled {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Navbar2 {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Navbar2Disabled {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Navbar3 {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Navbar3Disabled {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Topmenu1 {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Topmenu1Disabled {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Topmenu2 {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+INPUT.Topmenu2Disabled {
+    font-family: "Courier New", Courier, mono;
+    
+    MARGIN: 0in
+}
+
+
+
+select {
+    font-size: 8pt
+}
+
+table.front {
+    color: #000000;
+    background: white;
+    width: 880px;
+    height: auto;
+    padding: 40px;
+    border: 1px solid #909090;      /*    border: 1px solid #E8E8E8;  */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    float: right;
+    margin-right: 180px;
+}
+
+h1.front {
+    font: inherit;
+    color: #686868;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+table {
+    color: #000000
+}
+
+/* BEGIN: Content and Banner Definitions */
+
+td.content {
+    background-color: white;
+    vertical-align: top;
+    height: 100%;
+}
+
+tr.contentBlue {
+    background-color: #BDE4FF;
+}
+
+td.contentGrey {
+    background-color: #B3D8F2;
+}
+
+
+.contentWhite {
+    background-color: white;
+    vertical-align: top;
+    padding-right: 20px;
+    height: 100%;
+}
+
+td.contentCopyright {
+    background-color: white;
+    vertical-align: bottom;
+    text-align: center;
+    height: 100%;
+}
+
+td.contentSpacer {
+    background-color: white;
+    vertical-align: top;
+    height: 20px;
+}
+
+td.headerLogoCell {
+    vertical-align: top;
+    height: 60px;
+    background-color: #BDE4FF;
+}
+
+td.headerFormCell {
+    vertical-align: top;
+    text-align: left;
+}
+
+td.headerLinkBarCell {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 10px;
+}
+
+td.contentLeftNav {
+    background-color: white;
+    vertical-align: top;
+    padding-right: 20px;
+    height: 100%;
+}
+
+td.fixedContentHeaderNavbar {
+    background-color: white;
+    vertical-align: top;
+    height: 34px;
+}
+
+td.dynamicContentSpacer {
+    background-color: white;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+}
+
+td.bannerright {
+    background-color: #B3D8F2;
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+}
+
+td.bannerleft {
+    background-color: #B3D8F2;
+    padding: 5px;
+    /*padding-top: 80px;*/
+    vertical-align: top;
+    text-align: center;
+}
+
+ads_title {
+    margin-top: 5px;
+}
+
+td.bannerbottom {
+    background-color: #B3D8F2;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+td.bannerbottom table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* END: Cootent and Banner Definitions */
+
+table.Navigation {
+    background-color: #cccccc;
+    color: #cccccf;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+TH {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: bold;
+    MARGIN: 0in
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    MARGIN: 0in
+}
+
+TR {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    MARGIN: 0in
+}
+
+tr.dark {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+tr.light {
+    background-color: #f8f8f8;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* not sure if still used*/
+td.Indent1 {
+    background-color: #d0d0d0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 2px;
+    padding-top: 3px;
+    TEXT-ALIGN: right;
+    VERTICAL-ALIGN: top
+}
+
+td.Indent1Selected {
+    background-color: #f0f0f0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
+}
+
+td.Indent2 {
+    background-color: #F0F0F0;
+    height: 35px;
+    min-width: 70px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+span.moreDictBottom {
+    margin-left: 17px;
+}
+
+span.moreDictArrowBottom {
+    margin-left: 10px;
+    *margin-left: 12px;
+}
+
+td.Indent2first {
+    text-align: left !important;
+}
+
+div.internalServiceLink {
+    background-color: #BDE4FF;
+}
+
+tr.SpacerRow {
+    height: 25px;
+}
+
+td.Indent3 {
+    background-color: #f0f0f0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
+}
+
+td.Indent2Selected {
+    background-color: #F0F0F0;
+    height: 35px;
+    min-width: 70px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+td.Indent3Selected {
+    background-color: #f0f0f0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
+}
+
+td.Indent2Disabled {
+    background-color: #F0F0F0;
+    height: 35px;
+    min-width: 70px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+td.Indent3Disabled {
+    background-color: #d0d0d0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
+}
+
+/*end of not sure if still used*/
+TD {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    MARGIN: 0in
+}
+
+td.TermDBDot {
+    background-color: #e1e1e1;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
+}
+
+/* not sure if still used*/
+td.red {
+    background-color: #df103f
+}
+
+/*end not sure if still used*/
+
+.Headline {
+    font: inherit;
+    font-size: 18pt;
+}
+
+td.globalLinkBar {
+    color: #004D80;
+    font-size: 9pt;
+    vertical-align: bottom;
+    text-align: left;
+    width: 100px;
+}
+
+td.notes {
+    font-size: 9pt
+}
+
+td.Toggle {
+    color: #0073BF;
+    font-size: 9pt
+}
+
+td.tiny {
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+td.ToggleSelected {
+    color: #000000;
+    font-size: 9pt
+}
+
+td.ToggleStartPage {
+    background-color: #ffffff;
+    color: #0099ff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    VERTICAL-ALIGN: top
+}
+
+td.Topmenu1Space {
+    color: #000000
+}
+
+/*td.Topmenu1 {
+    background-color: #666666;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}
+*/
+.Topmenu1Container {
+    background-color: #666666;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Topmenu2 {
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    padding: 1px 2px 0px
+}
+
+td.Topmenu2Container {
+    background-color: #f0f0f0;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}
+
+td.Topmenu3 {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}
+
+td.Topmenu1Disabled {
+    background-color: #cccccc;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}
+
+td.Topmenu1Expanded {
+    background-color: #cccccc;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}
+
+.Topmenu2Selected {
+    background-color: #f0f0f0;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+   /* padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px*/
+}
+
+/*.Topmenu2Disabled {
+    background-color: #f0f0f0;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}*/
+
+/*td.Topmenu1Seperator {
+    background-color: #666666;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}*/
+
+td.Topmenu2Seperator {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+/*    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+*/}
+
+td.Topmenu1Selected {
+    background-color: #cccccc;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+/*    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px*/
+}
+
+td.Navbar0 {
+    background-color: #dddddd;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-top: 4px
+}
+
+td.Navbar0Selected {
+    background-color: #dddddd;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-top: 4px
+}
+
+td.Navbar0Disabled {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-top: 4px
+}
+
+.Navbar1 {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar1Selected {
+    background-color: #e1e1e1;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar1Disabled {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar2 {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar2Disabled {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar2Selected {
+    background-color: #e1e1e1;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+/*.Navbar3 {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    VERTICAL-ALIGN: top
+}
+
+td.Navbar3Selected {
+    background-color: #e1e1e1;
+    color: #0082D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    VERTICAL-ALIGN: top
+}
+
+td.Navbar3Disabled {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    VERTICAL-ALIGN: top
+}
+*/
+/*td.small {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    VERTICAL-ALIGN: top
+}
+*/
+/*td.Navbar1Seperator {
+    background-color: #000000;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px
+}
+
+td.tableNavTitle {
+    color: #000000
+}
+*/
+.search {
+    color: #ffffff;
+    background-color: #BDE4FF;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.searchSmall {
+    color: #004D80;
+    background-color: #BDE4FF;
+    font-family: Arial, Helvetica, sans-serif;
+    VERTICAL-ALIGN: middle;
+    font-size: 11px;
+}
+
+.helpTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.formFieldCell {
+    margin: 1px 1px 1px 1px;
+    padding: 10px;
+    border: 1px solid white;
+    VERTICAL-ALIGN: top;
+}
+
+td.logo {
+    font-family: Arial, Helvetica, sans-serif; /**  color: #004D80;**/
+    color: #004D80;
+    /*VERTICAL-ALIGN: bottom;*/
+    font-size: 11px;
+    height: 20px;
+}
+
+div {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.errormsg {
+    color: #ff0000
+}
+
+div.warning {
+    color: #000000
+}
+
+div.separator {
+    font-size: 1px;
+    line-height: 1px;
+    height: 1px;
+    border-bottom: 1px dashed #cccccc;
+    margin: 1px 0 1px 0;
+    padding: 0;
+}
+
+span {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+span.ToggleSelected {
+    color: #000000;
+    font-size: 8pt
+}
+
+span.errormsg {
+
+    color: #ff0000
+}
+
+span.tableNavSelectedPageNo {
+    color: #000000
+}
+
+span.list {
+    color: red;
+    font: bold;
+}
+
+span.listText {
+    color: #000000;
+    font: normal;
+}
+
+/* not sure if used */
+span.red {
+    color: #ff8000
+}
+
+/* end: not sure if used */
+
+PRE.text {
+    font-family: "Courier New", Courier, mono;
+    
+    FONT-STYLE: normal;
+    font-weight: bold;
+    LINE-HEIGHT: normal;
+    WHITE-SPACE: pre
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold
+}
+
+/* START Script.aculo.us definitions for autocompletion */
+div.auto_complete {
+    width: 350px;
+    background: #fff;
+    text-align: left;
+}
+
+div.auto_complete ul {
+    border: 1px solid #888;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+div.auto_complete ul li {
+    margin: 0;
+    padding: 3px;
+}
+
+div.auto_complete ul li.selected {
+    background-color: #cfe2f6;
+}
+
+div.auto_complete ul strong.highlight {
+    color: #800;
+    margin: 0;
+    padding: 0;
+}
+
+div.info {
+    background-color: #f0f0f0;
+    float: none;
+    clear: both;
+    margin: 5px 0 0 65px;
+    *margin: 13px 0 0 0;
+    padding: 5px;
+    border: solid 1px black;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+}
+
+div.dictionaryDropdown1 {
+    background-color: #f0f0f0;
+    clear: both;
+    float: none;
+    margin: -3px 0 0 65px;
+    *margin: 20px 0 0 0;
+    padding: 5px;
+    border: solid 1px black;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 1240px;
+}
+
+.banner_container {
+    float: left;
+    width: 160px;
+}
+
+#mainpage_banner1 {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+#mainpage_banner2 {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    vertical-align: top;
+}
+
+.wordnetForm {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.wordnetMeaning {
+    font-style: italic;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.wordnetSynonym,.wordnetSense, .wordnetExample, .wordnetHypernym, .wordnetHyponym, .wordnetOpposite {
+    font-weight: bold;
+}
+
+
+/* END Script.aculo.us definitions for autocompletion */
+
+/*
+     FILE ARCHIVED ON 13:28:03 Apr 22, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:39:50 Jul 23, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 109.626
+  exclusion.robots: 0.231
+  exclusion.robots.policy: 0.221
+  cdx.remote: 0.074
+  esindex: 0.011
+  LoadShardBlock: 71.481 (3)
+  PetaboxLoader3.datanode: 99.123 (5)
+  load_resource: 181.34 (2)
+  PetaboxLoader3.resolve: 126.35 (2)
+*/
