@@ -14,7 +14,11 @@
 
 @media (min-width: 1200px) {
 .container{
-    width: 80%;
+    width: 90%;
+}
+
+.no-margin {
+    margin:0px !important;
 }
 
       ul.menu {
@@ -23,6 +27,9 @@
 
        ul.menu li {
         display:inline;
+       }
+
+       ul.menu1 {
         color:#fff;
        }
 
@@ -41,21 +48,54 @@
 
 
 <div class="container">
-   <div class="container" style="background-color:red">
+   <div class="container" style="">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <img src="canoo_net.gif" alt="Canoo logo">
         </div>
 
         <div class="col-md-4">
             <!-- <form> -->
-            <input type="field" >
+               <div class="search">  
+                <input type="text">
+<br>
+<label for="where" class="searchSmall">In:</label> 
+<select name="service" size="1" onchange="javascript:void();">
+<option selected value="canooNet">All</option>
+<option value="spelling">Dictionary Spelling</option>
+<option value="inflection">Dictionary Word Forms</option>
+<option value="wordformation">Dictionary Wordformation</option>
+<option value="morphology">Dictionary Morphology</option>
+<option value="leo">Dictionary LEO (D-E)</option>
+<option value="spellingRules">Spelling Rules</option>
+<option value="grammar">Grammar</option>
+<option value="wfRules">Wordformation Rules</option>
+<option value="glossary">Glossary Linguistic Terms</option>
+</select>
+ 
+  <input type="button" value="Search">
             <!-- </form> -->
+            </div>
         </div>
 
-        <div class="col-md-4">
-            <img src="canoo_net.gif" alt="Canoo logo">
+        <div class="col-md-1">
+            <p>Tools</p>
+            <p>Sitemap</p>
+            <p>Help</p>
         </div>
+        <div class="col-md-1">
+            <p>Blog</p>
+            <p>Your questions</p>
+            <p>Newsletter</p>
+        </div>
+        <div class="col-md-1">
+            <p>About canoonet</p>
+            <p>User feedback</p>
+            <p>Imprint</p>
+            <p>Advertising</p>
+
+        </div>
+
 
 
     </div>
@@ -64,7 +104,7 @@
     <div  class="row">
       <div class="col-md-12">
           
-       <ul class="menu Topmenu1Container">
+       <ul class="menu menu1 Topmenu1Container">
 
         <li>| <a class="Topmenu1" href="javascript:void();">Dictionaries</a></li> 
         <li>| <a class="Topmenu1" href="javascript:void();">Word&nbsp;Grammar</a></li>
@@ -95,8 +135,9 @@
     </div>
   
     <div class="row">
-      <div class="col-sm-3" style="background-color:yellow;">
+      <div class="col-sm-3">
 
+         <div class = "Navbar1">
 <ul>
   <li>Word order</li>
     <li>Word order types</li>
@@ -109,14 +150,14 @@
     </ul>
  </ul>
 
-
+         </div>
 
 
       </div>
 
-      <div class="col-sm-6 contentWhite" style=";"> <!--START MAIN COLUMN -->
+      <div class="col-sm-9"> <!--START MAIN COLUMN -->
 
-          <div class="">
+          <div class="contentWhite">
 
         <h1 class="Headline" style="margin-top:0">Sentence brackets and topological fields</h1>
 
@@ -382,10 +423,10 @@
       
 
 
-      <div class="col-sm-3" style="background-color:yellow;">
+<!--       <div class="col-sm-3" style="background-color:yellow;">
 
       25%
-  </div>
+  </div> -->
     </div>
    </div>
 </div>

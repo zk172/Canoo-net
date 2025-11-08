@@ -1011,13 +1011,13 @@ td.tableNavTitle {
 */
 .search {
     color: #ffffff;
-    background-color: #BDE4FF;
+/*    background-color: #BDE4FF;*/
     font-family: Arial, Helvetica, sans-serif
 }
 
 .searchSmall {
     color: #004D80;
-    background-color: #BDE4FF;
+/*    background-color: #BDE4FF;*/
     font-family: Arial, Helvetica, sans-serif;
     VERTICAL-ALIGN: middle;
     font-size: 11px;
