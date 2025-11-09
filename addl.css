@@ -1,0 +1,52 @@
+@media (min-width: 1200px) {
+.container{
+    width: 90%;
+}
+
+.no-margin {
+    margin:0px !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+      ul.menu {
+       list-style:none;
+       }
+
+       ul.menu li {
+        display:inline-block;
+       }
+
+       ul.menu1 {
+        color:#fff;
+       }
+
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+/*margin:-.5em;*/
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.tcont {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.2em;
+}
