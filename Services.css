@@ -1,407 +1,406 @@
-body {
-    font-size:10pt;
-    background-color: #BDE4FF;
+A:unknown {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-body.title {
-    background-color: #BDE4FF;      /*  background-color: white;  */
+A:active {
+    COLOR: #0073BF;
+    TEXT-DECORATION: none
 }
 
-a:unknown {
-    color: #000000;
-    text-decoration: none
+A:link {
+    COLOR: #0073BF;
+    TEXT-DECORATION: underline
 }
 
-a:active {
-    color: #0073BF;
-    text-decoration: none
+A:visited {
+    COLOR: #0073BF;
+    TEXT-DECORATION: underline
 }
 
-a:link {
-    color: #0073BF;
-    text-decoration: underline
+A:hover {
+    COLOR: #0073BF;
+    TEXT-DECORATION: underline
 }
 
-a:visited {
-    color: #0073BF;
-    text-decoration: underline
-}
-
-a:hover {
-    color: #0073BF;
-    text-decoration: underline
-}
-
-a.product {
-    color: #004D80;
-    text-decoration: none;
+A.product {
+    COLOR: #004D80;
+    TEXT-DECORATION: none;
     font-size: 11px;
 }
 
-a.product:link {
-    color: #004D80;
-    text-decoration: none;
+A.product:link {
+    COLOR: #004D80;
+    TEXT-DECORATION: none;
     font-size: 11px;
 }
 
-a.product:visited {
-    color: #004D80;
-    text-decoration: none;
+A.product:visited {
+    COLOR: #004D80;
+    TEXT-DECORATION: none;
     font-size: 11px;
 }
 
-a.product:hover {
-    color: #004D80;
-    text-decoration: underline;
+A.product:hover {
+    COLOR: #004D80;
+    TEXT-DECORATION: underline;
     font-size: 11px;
 }
 
-a.toggle {
-    color: #0073BF;
-    text-decoration: none
+A.toggle {
+    COLOR: #0073BF;
+    TEXT-DECORATION: none
 }
 
-a.toggle:link {
-    color: #0073BF;
-    text-decoration: none
+A.toggle:link {
+    COLOR: #0073BF;
+    TEXT-DECORATION: none
 }
 
-a.toggle:visited {
-    d color: #0073BF;
-    text-decoration: none
+A.toggle:visited {
+    d COLOR: #0073BF;
+    TEXT-DECORATION: none
 }
 
-a.toggle:hover {
-    color: #0073BF;
-    text-decoration: underline
+A.toggle:hover {
+    COLOR: #0073BF;
+    TEXT-DECORATION: underline
 }
 
-a.globalLinkBar {
-    color: #004D80;
-    text-decoration: none;
+A.globalLinkBar {
+    COLOR: #004D80;
+    TEXT-DECORATION: none;
     font-size: 11px;
 }
 
-a.globalLinkBar:link {
-    color: #004D80;
-    text-decoration: none;
+A.globalLinkBar:link {
+    COLOR: #004D80;
+    TEXT-DECORATION: none;
     font-size: 11px;
 }
 
-a.globalLinkBar:visited {
-    color: #004D80;
-    text-decoration: none;
+A.globalLinkBar:visited {
+    COLOR: #004D80;
+    TEXT-DECORATION: none;
     font-size: 11px;
 }
 
-a.globalLinkBar:hover {
-    color: #004D80;
-    text-decoration: underline;
+A.globalLinkBar:hover {
+    COLOR: #004D80;
+    TEXT-DECORATION: underline;
     font-size: 11px;
 }
 
-a.globalLink {
-    text-decoration: none
+A.globalLink {
+    TEXT-DECORATION: none
 }
 
-a.globalLink:link {
-    text-decoration: none
+A.globalLink:link {
+    TEXT-DECORATION: none
 }
 
-a.globalLink:visited {
-    text-decoration: none
+A.globalLink:visited {
+    TEXT-DECORATION: none
 }
 
-a.globalLink:hover {
-    text-decoration: underline
+A.globalLink:hover {
+    TEXT-DECORATION: underline
 }
 
-a.Topmenu1 {
-    color: #ffffff;
-    text-decoration: none
+A.Topmenu1 {
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
 }
 
-a.Topmenu1:link {
-    color: #ffffff;
-    text-decoration: none
+A.Topmenu1:link {
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
 }
 
-a.Topmenu1:active {
-    color: #ffffff;
-    text-decoration: none
+A.Topmenu1:active {
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
 }
 
-a.Topmenu1:visited {
-    color: #ffffff;
-    text-decoration: none
+A.Topmenu1:visited {
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
 }
 
-a.Topmenu1:hover {
-    font-weight: normal;
-    text-decoration: underline
+A.Topmenu1:hover {
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
 }
 
-a.Topmenu2 {
-    color: #000000;
-    text-decoration: none
+A.Topmenu2 {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Topmenu2:link {
-    color: #000000;
-    text-decoration: none
+A.Topmenu2:link {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Topmenu2:active {
-    color: #ffffff;
-    text-decoration: none
+A.Topmenu2:active {
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
 }
 
-a.Topmenu2:hover {
-    font-weight: normal;
-    text-decoration: underline
+A.Topmenu2:hover {
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
 }
 
-a.Topmenu2:visited {
-    color: #000000;
-    text-decoration: none
+A.Topmenu2:visited {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.tableNavLinkedPageNo {
+A.tableNavLinkedPageNo {
+    COLOR: #0073BF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: none
+}
+
+A.tableNavLinkedPageNo:link {
+    COLOR: #0073BF
+}
+
+A.tableNavLinkedPageNo:visited {
+    COLOR: #0073BF
+}
+
+A.tableNavLinkedPageNo:active {
+    COLOR: #0073BF
+}
+
+A.tableNavLinkedPageNo:hover {
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
+}
+
+A.Navbar1Selected {
     color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    text-decoration: none
+    TEXT-DECORATION: none
 }
 
-a.tableNavLinkedPageNo:link {
-    color: #0073BF
-}
-
-a.tableNavLinkedPageNo:visited {
-    color: #0073BF
-}
-
-a.tableNavLinkedPageNo:active {
-    color: #0073BF
-}
-
-a.tableNavLinkedPageNo:hover {
-    font-weight: normal;
-    text-decoration: underline
-}
-
-a.Navbar1Selected {
+A.Navbar1Selected:visited {
     color: #0073BF;
-    text-decoration: none
+    TEXT-DECORATION: none
 }
 
-a.Navbar1Selected:visited {
+A.Navbar1Selected:active {
     color: #0073BF;
-    text-decoration: none
+    TEXT-DECORATION: none
 }
 
-a.Navbar1Selected:active {
-    color: #0073BF;
-    text-decoration: none
+A.Navbar1Hover {
+    COLOR: #000000;
+    TEXT-DECORATION: underline
 }
 
-a.Navbar1Hover {
-    color: #000000;
-    text-decoration: underline
+A.Navbar0 {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar0 {
-    color: #000000;
-    text-decoration: none
+A.Navbar0:active {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar0:active {
-    color: #000000;
-    text-decoration: none
+A.Navbar0:hover {
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
 }
 
-a.Navbar0:hover {
-    font-weight: normal;
-    text-decoration: underline
+A.Navbar0:link {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar0:link {
-    color: #000000;
-    text-decoration: none
+A.Navbar0:visited {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar0:visited {
-    color: #000000;
-    text-decoration: none
+A.Navbar1 {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar1 {
-    color: #000000;
-    text-decoration: none
+A.Navbar1:active {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar1:active {
-    color: #000000;
-    text-decoration: none
+A.Navbar1:hover {
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
 }
 
-a.Navbar1:hover {
-    font-weight: normal;
-    text-decoration: underline
+A.Navbar1:link {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar1:link {
-    color: #000000;
-    text-decoration: none
+A.Navbar1:visited {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar1:visited {
-    color: #000000;
-    text-decoration: none
+A.Navbar2 {
+    COLOR: #000000;
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none
 }
 
-a.Navbar2 {
-    color: #000000;
-    font-size: 8pt;
-    text-decoration: none
+A.Navbar2:active {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar2:active {
-    color: #000000;
-    text-decoration: none
+A.Navbar2:hover {
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
 }
 
-a.Navbar2:hover {
-    font-weight: normal;
-    text-decoration: underline
+A.Navbar2:link {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar2:link {
-    color: #000000;
-    text-decoration: none
+A.Navbar2:visited {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar2:visited {
-    color: #000000;
-    text-decoration: none
+A.Navbar3 {
+    COLOR: #000000;
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none
 }
 
-a.Navbar3 {
-    color: #000000;
-    font-size: 8pt;
-    text-decoration: none
+A.Navbar3:active {
+    COLOR: #000000;
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none
 }
 
-a.Navbar3:active {
-    color: #000000;
-    font-size: 8pt;
-    text-decoration: none
+A.Navbar3:hover {
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
 }
 
-a.Navbar3:hover {
-    font-weight: normal;
-    text-decoration: underline
+A.Navbar3:link {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
-a.Navbar3:link {
-    color: #000000;
-    text-decoration: none
-}
-
-a.Navbar3:visited {
-    color: #000000;
-    text-decoration: none
+A.Navbar3:visited {
+    COLOR: #000000;
+    TEXT-DECORATION: none
 }
 
 INPUT.Navbar0 {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Navbar0Disabled {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Navbar1 {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Navbar1Disabled {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Navbar2 {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Navbar2Disabled {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Navbar3 {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Navbar3Disabled {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Topmenu1 {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Topmenu1Disabled {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Topmenu2 {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 INPUT.Topmenu2Disabled {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
-
-
-select {
-    font-size: 8pt
+BODY {
+    BACKGROUND-COLOR: #BDE4FF;
 }
 
-table.front {
-    color: #000000;
+BODY.title {
+    BACKGROUND-COLOR: #BDE4FF;		/*  BACKGROUND-COLOR: white;  */
+}
+
+SELECT {
+    FONT-SIZE: 8pt
+}
+
+TABLE.front {
+    COLOR: #000000;
     background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 880px;
     height: auto;
     padding: 40px;
-    border: 1px solid #909090;      /*    border: 1px solid #E8E8E8;  */
+    border: 1px solid #909090;		/*    border: 1px solid #E8E8E8;  */
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    float: right;
-    margin-right: 180px;
 }
 
 h1.front {
@@ -411,92 +410,91 @@ h1.front {
     margin-bottom: 30px;
 }
 
-table {
-    color: #000000
+TABLE {
+    COLOR: #000000
 }
 
 /* BEGIN: Content and Banner Definitions */
 
-td.content {
+TD.content {
     background-color: white;
     vertical-align: top;
     height: 100%;
 }
 
-tr.contentBlue {
+TR.contentBlue {
     background-color: #BDE4FF;
 }
 
-td.contentGrey {
+TD.contentGrey {
     background-color: #B3D8F2;
 }
 
-
-.contentWhite {
+TD.contentWhite {
     background-color: white;
     vertical-align: top;
     padding-right: 20px;
     height: 100%;
 }
 
-td.contentCopyright {
+TD.contentCopyright {
     background-color: white;
     vertical-align: bottom;
     text-align: center;
     height: 100%;
 }
 
-td.contentSpacer {
+TD.contentSpacer {
     background-color: white;
     vertical-align: top;
     height: 20px;
 }
 
-td.headerLogoCell {
+TD.headerLogoCell {
     vertical-align: top;
     height: 60px;
     background-color: #BDE4FF;
 }
 
-td.headerFormCell {
+TD.headerFormCell {
     vertical-align: top;
     text-align: left;
 }
 
-td.headerLinkBarCell {
+TD.headerLinkBarCell {
     vertical-align: top;
     text-align: left;
     padding-left: 10px;
 }
 
-td.contentLeftNav {
+TD.contentLeftNav {
     background-color: white;
     vertical-align: top;
     padding-right: 20px;
     height: 100%;
 }
 
-td.fixedContentHeaderNavbar {
+TD.fixedContentHeaderNavbar {
     background-color: white;
     vertical-align: top;
     height: 34px;
 }
 
-td.dynamicContentSpacer {
+TD.dynamicContentSpacer {
     background-color: white;
     vertical-align: top;
     height: 100%;
     width: 100%;
 }
 
-td.bannerright {
+TD.bannerright {
     background-color: #B3D8F2;
     padding: 5px;
     vertical-align: top;
     text-align: center;
 }
 
-td.bannerleft {
+TD.bannerleft {
     background-color: #B3D8F2;
     padding: 5px;
     /*padding-top: 80px;*/
@@ -508,7 +506,7 @@ ads_title {
     margin-top: 5px;
 }
 
-td.bannerbottom {
+TD.bannerbottom {
     background-color: #B3D8F2;
     padding: 5px;
     vertical-align: middle;
@@ -517,73 +515,73 @@ td.bannerbottom {
     height: 60px;
 }
 
-td.bannerbottom table {
+TD.bannerbottom TABLE {
     margin-left: auto;
     margin-right: auto;
 }
 
 /* END: Cootent and Banner Definitions */
 
-table.Navigation {
-    background-color: #cccccc;
-    color: #cccccf;
-    font-family: Arial, Helvetica, sans-serif
+TABLE.Navigation {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #cccccf;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
 }
 
 TH {
-    background-color: #e1e1e1;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    font-weight: bold;
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
     MARGIN: 0in
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    
+P {
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
 TR {
-    font-family: Arial, Helvetica, sans-serif;
-    
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
-tr.dark {
-    background-color: #f0f0f0;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif
+TR.dark {
+    BACKGROUND-COLOR: #f0f0f0;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
 }
 
-tr.light {
-    background-color: #f8f8f8;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif
+TR.light {
+    BACKGROUND-COLOR: #f8f8f8;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
 }
 
 /* not sure if still used*/
-td.Indent1 {
-    background-color: #d0d0d0;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    font-weight: bold;
-    padding-bottom: 0px;
-    padding-left: 3px;
-    padding-right: 2px;
-    padding-top: 3px;
+TD.Indent1 {
+    BACKGROUND-COLOR: #d0d0d0;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 3px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 3px;
     TEXT-ALIGN: right;
     VERTICAL-ALIGN: top
 }
 
-td.Indent1Selected {
-    background-color: #f0f0f0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
+TD.Indent1Selected {
+    BACKGROUND-COLOR: #f0f0f0;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 2px
 }
 
 td.Indent2 {
@@ -612,19 +610,19 @@ div.internalServiceLink {
     background-color: #BDE4FF;
 }
 
-tr.SpacerRow {
+TR.SpacerRow {
     height: 25px;
 }
 
-td.Indent3 {
-    background-color: #f0f0f0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
+TD.Indent3 {
+    BACKGROUND-COLOR: #f0f0f0;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 2px
 }
 
-td.Indent2Selected {
+TD.Indent2Selected {
     background-color: #F0F0F0;
     height: 35px;
     min-width: 70px;
@@ -633,15 +631,15 @@ td.Indent2Selected {
     text-align: center;
 }
 
-td.Indent3Selected {
-    background-color: #f0f0f0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
+TD.Indent3Selected {
+    BACKGROUND-COLOR: #f0f0f0;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 2px
 }
 
-td.Indent2Disabled {
+TD.Indent2Disabled {
     background-color: #F0F0F0;
     height: 35px;
     min-width: 70px;
@@ -650,413 +648,417 @@ td.Indent2Disabled {
     text-align: center;
 }
 
-td.Indent3Disabled {
-    background-color: #d0d0d0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
+TD.Indent3Disabled {
+    BACKGROUND-COLOR: #d0d0d0;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 2px
 }
 
 /*end of not sure if still used*/
 TD {
-    font-family: Arial, Helvetica, sans-serif;
-    
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
     MARGIN: 0in
 }
 
-td.TermDBDot {
-    background-color: #e1e1e1;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
+TD.TermDBDot {
+    BACKGROUND-COLOR: #e1e1e1;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 2px
 }
 
 /* not sure if still used*/
-td.red {
-    background-color: #df103f
+TD.red {
+    BACKGROUND-COLOR: #df103f
 }
 
 /*end not sure if still used*/
 
 .Headline {
     font: inherit;
-    font-size: 18pt;
+    FONT-SIZE: 18pt;
 }
 
-td.globalLinkBar {
-    color: #004D80;
-    font-size: 9pt;
+TD.globalLinkBar {
+    COLOR: #004D80;
+    FONT-SIZE: 9pt;
     vertical-align: bottom;
     text-align: left;
     width: 100px;
 }
 
-td.notes {
-    font-size: 9pt
+TD.notes {
+    FONT-SIZE: 9pt
 }
 
-td.Toggle {
-    color: #0073BF;
-    font-size: 9pt
+TD.Toggle {
+    COLOR: #0073BF;
+    FONT-SIZE: 9pt
 }
 
-td.tiny {
-    color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+TD.tiny {
+    COLOR: #0073BF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
     text-align: center;
 }
 
-td.ToggleSelected {
-    color: #000000;
-    font-size: 9pt
+TD.ToggleSelected {
+    COLOR: #000000;
+    FONT-SIZE: 9pt
 }
 
-td.ToggleStartPage {
-    background-color: #ffffff;
-    color: #0099ff;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    padding-bottom: 4px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 4px;
+TD.ToggleStartPage {
+    BACKGROUND-COLOR: #ffffff;
+    COLOR: #0099ff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 4px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 4px;
     VERTICAL-ALIGN: top
 }
 
-td.Topmenu1Space {
-    color: #000000
+TD.Topmenu1Space {
+    COLOR: #000000
 }
 
-/*td.Topmenu1 {
-    background-color: #666666;
-    color: #808040;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
-}
-*/
-.Topmenu1Container {
-    background-color: #666666;
-    color: #808040;
-    font-family: Arial, Helvetica, sans-serif;
+TD.Topmenu1 {
+    BACKGROUND-COLOR: #666666;
+    COLOR: #808040;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
 }
 
-.Topmenu2 {
+TD.Topmenu1Container {
+    BACKGROUND-COLOR: #666666;
+    COLOR: #808040;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 1px
+}
+
+TD.Topmenu2 {
     color: #808040;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     padding: 1px 2px 0px
 }
 
-td.Topmenu2Container {
-    background-color: #f0f0f0;
-    color: #808040;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
+TD.Topmenu2Container {
+    BACKGROUND-COLOR: #f0f0f0;
+    COLOR: #808040;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
 }
 
-td.Topmenu3 {
-    background-color: #cccccc;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
+TD.Topmenu3 {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
 }
 
-td.Topmenu1Disabled {
-    background-color: #cccccc;
-    color: #808040;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
+TD.Topmenu1Disabled {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #808040;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
 }
 
-.Topmenu1Expanded {
-    background-color: #cccccc;
+TD.Topmenu1Expanded {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #0073BF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
+}
+
+TD.Topmenu2Selected {
+    BACKGROUND-COLOR: #f0f0f0;
+    COLOR: #0073BF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
+}
+
+TD.Topmenu2Disabled {
+    BACKGROUND-COLOR: #f0f0f0;
+    COLOR: #808040;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
+}
+
+TD.Topmenu1Seperator {
+    BACKGROUND-COLOR: #666666;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
+}
+
+TD.Topmenu2Seperator {
+    BACKGROUND-COLOR: #f0f0f0;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px
+}
+
+TD.Topmenu1Selected {
+    BACKGROUND-COLOR: #cccccc;
     color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 0px
 }
 
-.Topmenu2Selected {
-    background-color: #f0f0f0;
-    color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-   /* padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px*/
+TD.Navbar0 {
+    BACKGROUND-COLOR: #dddddd;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 4px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 4px
 }
 
-/*.Topmenu2Disabled {
-    background-color: #f0f0f0;
-    color: #808040;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
-}*/
-
-/*td.Topmenu1Seperator {
-    background-color: #666666;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
-}*/
-
-td.Topmenu2Seperator {
-    background-color: #f0f0f0;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-/*    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1px
-*/}
-
-td.Topmenu1Selected {
-    background-color: #cccccc;
-    color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-/*    padding-bottom: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 0px*/
+TD.Navbar0Selected {
+    BACKGROUND-COLOR: #dddddd;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 4px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 4px
 }
 
-td.Navbar0 {
-    background-color: #dddddd;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    padding-bottom: 4px;
-    padding-left: 0px;
-    padding-right: 2px;
-    padding-top: 4px
+TD.Navbar0Disabled {
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 4px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 4px
 }
 
-td.Navbar0Selected {
-    background-color: #dddddd;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    padding-bottom: 4px;
-    padding-left: 0px;
-    padding-right: 2px;
-    padding-top: 4px
-}
-
-td.Navbar0Disabled {
-    background-color: #e1e1e1;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    font-weight: bold;
-    padding-bottom: 4px;
-    padding-left: 0px;
-    padding-right: 2px;
-    padding-top: 4px
-}
-
-.Navbar1 {
-    background-color: #cccccc;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    padding-bottom: 4px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 4px;
-    /*VERTICAL-ALIGN: top*/
-}
-
-.Navbar1Selected {
-    background-color: #e1e1e1;
-    color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    padding-bottom: 4px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 4px;
-    /*VERTICAL-ALIGN: top*/
-}
-
-.Navbar1Disabled {
-    background-color: #cccccc;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    padding-bottom: 4px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 4px;
-    /*VERTICAL-ALIGN: top*/
-}
-
-.Navbar2 {
-    background-color: #e1e1e1;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 2px;
-    padding-top: 1px;
-    /*VERTICAL-ALIGN: top*/
-}
-
-.Navbar2Disabled {
-    background-color: #cccccc;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 2px;
-    padding-top: 1px;
-    /*VERTICAL-ALIGN: top*/
-}
-
-.Navbar2Selected {
-    background-color: #e1e1e1;
-    color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 2px;
-    padding-top: 1px;
-    /*VERTICAL-ALIGN: top*/
-}
-
-/*.Navbar3 {
-    background-color: #e1e1e1;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 2px;
-    padding-top: 1px;
+TD.Navbar1 {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 4px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 4px;
     VERTICAL-ALIGN: top
 }
 
-td.Navbar3Selected {
-    background-color: #e1e1e1;
-    color: #0082D9;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 2px;
-    padding-top: 1px;
+TD.Navbar1Selected {
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #0073BF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 4px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 4px;
     VERTICAL-ALIGN: top
 }
 
-td.Navbar3Disabled {
-    background-color: #e1e1e1;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 2px;
-    padding-top: 1px;
+TD.Navbar1Disabled {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 4px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 4px;
     VERTICAL-ALIGN: top
 }
-*/
-/*td.small {
-    background-color: #cccccc;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 2px;
-    padding-top: 1px;
+
+TD.Navbar2 {
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px;
     VERTICAL-ALIGN: top
 }
-*/
-/*td.Navbar1Seperator {
-    background-color: #000000;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px
+
+TD.Navbar2Disabled {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px;
+    VERTICAL-ALIGN: top
 }
 
-td.tableNavTitle {
-    color: #000000
-}
-*/
-.search {
-    color: #ffffff;
-/*    background-color: #BDE4FF;*/
-    font-family: Arial, Helvetica, sans-serif
+TD.Navbar2Selected {
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #0073BF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px;
+    VERTICAL-ALIGN: top
 }
 
-.searchSmall {
-    color: #004D80;
-/*    background-color: #BDE4FF;*/
-    font-family: Arial, Helvetica, sans-serif;
+TD.Navbar3 {
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px;
+    VERTICAL-ALIGN: top
+}
+
+TD.Navbar3Selected {
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #0082D9;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px;
+    VERTICAL-ALIGN: top
+}
+
+TD.Navbar3Disabled {
+    BACKGROUND-COLOR: #e1e1e1;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px;
+    VERTICAL-ALIGN: top
+}
+
+TD.small {
+    BACKGROUND-COLOR: #cccccc;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 2px;
+    PADDING-TOP: 1px;
+    VERTICAL-ALIGN: top
+}
+
+TD.Navbar1Seperator {
+    BACKGROUND-COLOR: #000000;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+
+TD.tableNavTitle {
+    COLOR: #000000
+}
+
+TD.search {
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #BDE4FF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+TD.searchSmall {
+    COLOR: #004D80;
+    BACKGROUND-COLOR: #BDE4FF;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
     VERTICAL-ALIGN: middle;
     font-size: 11px;
 }
 
-.helpTitle {
-    font-family: Arial, Helvetica, sans-serif;
+TD.helpTitle {
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-.formFieldCell {
+TD.formFieldCell {
     margin: 1px 1px 1px 1px;
     padding: 10px;
     border: 1px solid white;
     VERTICAL-ALIGN: top;
 }
 
-td.logo {
-    font-family: Arial, Helvetica, sans-serif; /**  color: #004D80;**/
-    color: #004D80;
-    /*VERTICAL-ALIGN: bottom;*/
+TD.logo {
+    FONT-FAMILY: Arial, Helvetica, sans-serif; /**  COLOR: #004D80;**/
+    COLOR: #004D80;
+    VERTICAL-ALIGN: bottom;
     font-size: 11px;
     height: 20px;
 }
 
-div {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif
+DIV {
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
 }
 
-div.errormsg {
-    color: #ff0000
+DIV.errormsg {
+    COLOR: #ff0000
 }
 
-div.warning {
-    color: #000000
+DIV.warning {
+    COLOR: #000000
 }
 
-div.separator {
+DIV.separator {
     font-size: 1px;
     line-height: 1px;
     height: 1px;
@@ -1065,61 +1067,61 @@ div.separator {
     padding: 0;
 }
 
-span {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif
+SPAN {
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
 }
 
-span.ToggleSelected {
-    color: #000000;
-    font-size: 8pt
+SPAN.ToggleSelected {
+    COLOR: #000000;
+    FONT-SIZE: 8pt
 }
 
-span.errormsg {
+SPAN.errormsg {
 
-    color: #ff0000
+    COLOR: #ff0000
 }
 
-span.tableNavSelectedPageNo {
-    color: #000000
+SPAN.tableNavSelectedPageNo {
+    COLOR: #000000
 }
 
-span.list {
+SPAN.list {
     color: red;
     font: bold;
 }
 
-span.listText {
+SPAN.listText {
     color: #000000;
     font: normal;
 }
 
 /* not sure if used */
-span.red {
-    color: #ff8000
+SPAN.red {
+    COLOR: #ff8000
 }
 
 /* end: not sure if used */
 
 PRE.text {
-    font-family: "Courier New", Courier, mono;
-    
+    FONT-FAMILY: "Courier New", Courier, mono;
+    FONT-SIZE: 10pt;
     FONT-STYLE: normal;
-    font-weight: bold;
+    FONT-WEIGHT: bold;
     LINE-HEIGHT: normal;
     WHITE-SPACE: pre
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: bold
+H2 {
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 16px;
+    FONT-WEIGHT: bold
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: bold
+H3 {
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 16px;
+    FONT-WEIGHT: bold
 }
 
 /* START Script.aculo.us definitions for autocompletion */
@@ -1178,16 +1180,11 @@ div.dictionaryDropdown1 {
     z-index: 1;
 }
 
-#content {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 1240px;
-}
-
 .banner_container {
-    float: left;
-    width: 160px;
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    margin-top: -100px;
 }
 
 #mainpage_banner1 {
@@ -1217,16 +1214,35 @@ div.dictionaryDropdown1 {
     vertical-align: top;
 }
 
-.wordnetSynonym,.wordnetSense, .wordnetExample, .wordnetHypernym, .wordnetHyponym, .wordnetOpposite {
+.wordnetSynonym {
     font-weight: bold;
 }
 
+.wordnetSense {
+    font-weight: bold;
+}
+
+.wordnetExample {
+    font-weight: bold;
+}
+
+.wordnetHypernym {
+    font-weight: bold;
+}
+
+.wordnetHyponym {
+    font-weight: bold;
+}
+
+.wordnetOpposite {
+    font-weight: bold;
+}
 
 /* END Script.aculo.us definitions for autocompletion */
 
 /*
-     FILE ARCHIVED ON 13:28:03 Apr 22, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 07:39:50 Jul 23, 2023.
+     FILE ARCHIVED ON 21:49:12 Sep 19, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:51:46 Nov 10, 2025.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1234,13 +1250,13 @@ div.dictionaryDropdown1 {
 */
 /*
 playback timings (ms):
-  captures_list: 109.626
-  exclusion.robots: 0.231
-  exclusion.robots.policy: 0.221
-  cdx.remote: 0.074
-  esindex: 0.011
-  LoadShardBlock: 71.481 (3)
-  PetaboxLoader3.datanode: 99.123 (5)
-  load_resource: 181.34 (2)
-  PetaboxLoader3.resolve: 126.35 (2)
+  captures_list: 0.927
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.022
+  esindex: 0.015
+  cdx.remote: 7.295
+  LoadShardBlock: 65.635 (3)
+  PetaboxLoader3.datanode: 112.576 (5)
+  PetaboxLoader3.resolve: 911.121 (3)
+  load_resource: 1026.773 (2)
 */
