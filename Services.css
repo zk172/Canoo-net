@@ -427,7 +427,7 @@ tr.contentBlue {
     background-color: #BDE4FF;
 }
 
-td.contentGrey {
+.contentGrey {
     background-color: #B3D8F2;
 }
 
@@ -436,6 +436,7 @@ td.contentGrey {
     background-color: white;
     vertical-align: top;
     padding-right: 20px;
+    padding-top:10px;
     height: 100%;
 }
 
@@ -683,6 +684,7 @@ td.red {
 .Headline {
     font: inherit;
     font-size: 18pt;
+    margin-top:0;
 }
 
 td.globalLinkBar {

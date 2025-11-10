@@ -11,17 +11,17 @@
   box-sizing: border-box;
 }
 
-      ul.menu {
-       list-style:none;
-       }
+ul.menu {
+ list-style:none;
+}
 
-       ul.menu li {
-        display:inline-block;
-       }
+ul.menu li {
+ display:inline-block;
+}
 
-       ul.menu1 {
-        color:#fff;
-       }
+ul.menu1 {
+ color:#fff;
+}
 
 
 .collapsible {
