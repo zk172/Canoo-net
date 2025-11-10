@@ -1,406 +1,407 @@
-A:unknown {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+body {
+    font-size:10pt;
+    background-color: #BDE4FF;
 }
 
-A:active {
-    COLOR: #0073BF;
-    TEXT-DECORATION: none
+body.title {
+    background-color: #BDE4FF;      /*  background-color: white;  */
 }
 
-A:link {
-    COLOR: #0073BF;
-    TEXT-DECORATION: underline
+a:unknown {
+    color: #000000;
+    text-decoration: none
 }
 
-A:visited {
-    COLOR: #0073BF;
-    TEXT-DECORATION: underline
-}
-
-A:hover {
-    COLOR: #0073BF;
-    TEXT-DECORATION: underline
-}
-
-A.product {
-    COLOR: #004D80;
-    TEXT-DECORATION: none;
-    font-size: 11px;
-}
-
-A.product:link {
-    COLOR: #004D80;
-    TEXT-DECORATION: none;
-    font-size: 11px;
-}
-
-A.product:visited {
-    COLOR: #004D80;
-    TEXT-DECORATION: none;
-    font-size: 11px;
-}
-
-A.product:hover {
-    COLOR: #004D80;
-    TEXT-DECORATION: underline;
-    font-size: 11px;
-}
-
-A.toggle {
-    COLOR: #0073BF;
-    TEXT-DECORATION: none
-}
-
-A.toggle:link {
-    COLOR: #0073BF;
-    TEXT-DECORATION: none
-}
-
-A.toggle:visited {
-    d COLOR: #0073BF;
-    TEXT-DECORATION: none
-}
-
-A.toggle:hover {
-    COLOR: #0073BF;
-    TEXT-DECORATION: underline
-}
-
-A.globalLinkBar {
-    COLOR: #004D80;
-    TEXT-DECORATION: none;
-    font-size: 11px;
-}
-
-A.globalLinkBar:link {
-    COLOR: #004D80;
-    TEXT-DECORATION: none;
-    font-size: 11px;
-}
-
-A.globalLinkBar:visited {
-    COLOR: #004D80;
-    TEXT-DECORATION: none;
-    font-size: 11px;
-}
-
-A.globalLinkBar:hover {
-    COLOR: #004D80;
-    TEXT-DECORATION: underline;
-    font-size: 11px;
-}
-
-A.globalLink {
-    TEXT-DECORATION: none
-}
-
-A.globalLink:link {
-    TEXT-DECORATION: none
-}
-
-A.globalLink:visited {
-    TEXT-DECORATION: none
-}
-
-A.globalLink:hover {
-    TEXT-DECORATION: underline
-}
-
-A.Topmenu1 {
-    COLOR: #ffffff;
-    TEXT-DECORATION: none
-}
-
-A.Topmenu1:link {
-    COLOR: #ffffff;
-    TEXT-DECORATION: none
-}
-
-A.Topmenu1:active {
-    COLOR: #ffffff;
-    TEXT-DECORATION: none
-}
-
-A.Topmenu1:visited {
-    COLOR: #ffffff;
-    TEXT-DECORATION: none
-}
-
-A.Topmenu1:hover {
-    FONT-WEIGHT: normal;
-    TEXT-DECORATION: underline
-}
-
-A.Topmenu2 {
-    COLOR: #000000;
-    TEXT-DECORATION: none
-}
-
-A.Topmenu2:link {
-    COLOR: #000000;
-    TEXT-DECORATION: none
-}
-
-A.Topmenu2:active {
-    COLOR: #ffffff;
-    TEXT-DECORATION: none
-}
-
-A.Topmenu2:hover {
-    FONT-WEIGHT: normal;
-    TEXT-DECORATION: underline
-}
-
-A.Topmenu2:visited {
-    COLOR: #000000;
-    TEXT-DECORATION: none
-}
-
-A.tableNavLinkedPageNo {
-    COLOR: #0073BF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    TEXT-DECORATION: none
-}
-
-A.tableNavLinkedPageNo:link {
-    COLOR: #0073BF
-}
-
-A.tableNavLinkedPageNo:visited {
-    COLOR: #0073BF
-}
-
-A.tableNavLinkedPageNo:active {
-    COLOR: #0073BF
-}
-
-A.tableNavLinkedPageNo:hover {
-    FONT-WEIGHT: normal;
-    TEXT-DECORATION: underline
-}
-
-A.Navbar1Selected {
+a:active {
     color: #0073BF;
-    TEXT-DECORATION: none
+    text-decoration: none
 }
 
-A.Navbar1Selected:visited {
+a:link {
     color: #0073BF;
-    TEXT-DECORATION: none
+    text-decoration: underline
 }
 
-A.Navbar1Selected:active {
+a:visited {
     color: #0073BF;
-    TEXT-DECORATION: none
+    text-decoration: underline
 }
 
-A.Navbar1Hover {
-    COLOR: #000000;
-    TEXT-DECORATION: underline
+a:hover {
+    color: #0073BF;
+    text-decoration: underline
 }
 
-A.Navbar0 {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.product {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
 }
 
-A.Navbar0:active {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.product:link {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
 }
 
-A.Navbar0:hover {
-    FONT-WEIGHT: normal;
-    TEXT-DECORATION: underline
+a.product:visited {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
 }
 
-A.Navbar0:link {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.product:hover {
+    color: #004D80;
+    text-decoration: underline;
+    font-size: 11px;
 }
 
-A.Navbar0:visited {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.toggle {
+    color: #0073BF;
+    text-decoration: none
 }
 
-A.Navbar1 {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.toggle:link {
+    color: #0073BF;
+    text-decoration: none
 }
 
-A.Navbar1:active {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.toggle:visited {
+    d color: #0073BF;
+    text-decoration: none
 }
 
-A.Navbar1:hover {
-    FONT-WEIGHT: normal;
-    TEXT-DECORATION: underline
+a.toggle:hover {
+    color: #0073BF;
+    text-decoration: underline
 }
 
-A.Navbar1:link {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.globalLinkBar {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
 }
 
-A.Navbar1:visited {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.globalLinkBar:link {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
 }
 
-A.Navbar2 {
-    COLOR: #000000;
-    FONT-SIZE: 8pt;
-    TEXT-DECORATION: none
+a.globalLinkBar:visited {
+    color: #004D80;
+    text-decoration: none;
+    font-size: 11px;
 }
 
-A.Navbar2:active {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.globalLinkBar:hover {
+    color: #004D80;
+    text-decoration: underline;
+    font-size: 11px;
 }
 
-A.Navbar2:hover {
-    FONT-WEIGHT: normal;
-    TEXT-DECORATION: underline
+a.globalLink {
+    text-decoration: none
 }
 
-A.Navbar2:link {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.globalLink:link {
+    text-decoration: none
 }
 
-A.Navbar2:visited {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.globalLink:visited {
+    text-decoration: none
 }
 
-A.Navbar3 {
-    COLOR: #000000;
-    FONT-SIZE: 8pt;
-    TEXT-DECORATION: none
+a.globalLink:hover {
+    text-decoration: underline
 }
 
-A.Navbar3:active {
-    COLOR: #000000;
-    FONT-SIZE: 8pt;
-    TEXT-DECORATION: none
+a.Topmenu1 {
+    color: #ffffff;
+    text-decoration: none
 }
 
-A.Navbar3:hover {
-    FONT-WEIGHT: normal;
-    TEXT-DECORATION: underline
+a.Topmenu1:link {
+    color: #ffffff;
+    text-decoration: none
 }
 
-A.Navbar3:link {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.Topmenu1:active {
+    color: #ffffff;
+    text-decoration: none
 }
 
-A.Navbar3:visited {
-    COLOR: #000000;
-    TEXT-DECORATION: none
+a.Topmenu1:visited {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a.Topmenu1:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Topmenu2 {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Topmenu2:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Topmenu2:active {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a.Topmenu2:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Topmenu2:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.tableNavLinkedPageNo {
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-decoration: none
+}
+
+a.tableNavLinkedPageNo:link {
+    color: #0073BF
+}
+
+a.tableNavLinkedPageNo:visited {
+    color: #0073BF
+}
+
+a.tableNavLinkedPageNo:active {
+    color: #0073BF
+}
+
+a.tableNavLinkedPageNo:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar1Selected {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.Navbar1Selected:visited {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.Navbar1Selected:active {
+    color: #0073BF;
+    text-decoration: none
+}
+
+a.Navbar1Hover {
+    color: #000000;
+    text-decoration: underline
+}
+
+a.Navbar0 {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar0:active {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar0:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar0:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar0:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1 {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1:active {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar1:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar1:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar2 {
+    color: #000000;
+    font-size: 8pt;
+    text-decoration: none
+}
+
+a.Navbar2:active {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar2:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar2:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar2:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar3 {
+    color: #000000;
+    font-size: 8pt;
+    text-decoration: none
+}
+
+a.Navbar3:active {
+    color: #000000;
+    font-size: 8pt;
+    text-decoration: none
+}
+
+a.Navbar3:hover {
+    font-weight: normal;
+    text-decoration: underline
+}
+
+a.Navbar3:link {
+    color: #000000;
+    text-decoration: none
+}
+
+a.Navbar3:visited {
+    color: #000000;
+    text-decoration: none
 }
 
 INPUT.Navbar0 {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Navbar0Disabled {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Navbar1 {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Navbar1Disabled {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Navbar2 {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Navbar2Disabled {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Navbar3 {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Navbar3Disabled {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Topmenu1 {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Topmenu1Disabled {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Topmenu2 {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
 INPUT.Topmenu2Disabled {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     MARGIN: 0in
 }
 
-BODY {
-    BACKGROUND-COLOR: #BDE4FF;
+
+
+select {
+    font-size: 8pt
 }
 
-BODY.title {
-    BACKGROUND-COLOR: #BDE4FF;		/*  BACKGROUND-COLOR: white;  */
-}
-
-SELECT {
-    FONT-SIZE: 8pt
-}
-
-TABLE.front {
-    COLOR: #000000;
+table.front {
+    color: #000000;
     background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     width: 880px;
     height: auto;
     padding: 40px;
-    border: 1px solid #909090;		/*    border: 1px solid #E8E8E8;  */
+    border: 1px solid #909090;      /*    border: 1px solid #E8E8E8;  */
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
+    float: right;
+    margin-right: 180px;
 }
 
 h1.front {
@@ -410,91 +411,92 @@ h1.front {
     margin-bottom: 30px;
 }
 
-TABLE {
-    COLOR: #000000
+table {
+    color: #000000
 }
 
 /* BEGIN: Content and Banner Definitions */
 
-TD.content {
+td.content {
     background-color: white;
     vertical-align: top;
     height: 100%;
 }
 
-TR.contentBlue {
+tr.contentBlue {
     background-color: #BDE4FF;
 }
 
-TD.contentGrey {
+td.contentGrey {
     background-color: #B3D8F2;
 }
 
-TD.contentWhite {
+
+.contentWhite {
     background-color: white;
     vertical-align: top;
     padding-right: 20px;
     height: 100%;
 }
 
-TD.contentCopyright {
+td.contentCopyright {
     background-color: white;
     vertical-align: bottom;
     text-align: center;
     height: 100%;
 }
 
-TD.contentSpacer {
+td.contentSpacer {
     background-color: white;
     vertical-align: top;
     height: 20px;
 }
 
-TD.headerLogoCell {
+td.headerLogoCell {
     vertical-align: top;
     height: 60px;
     background-color: #BDE4FF;
 }
 
-TD.headerFormCell {
+td.headerFormCell {
     vertical-align: top;
     text-align: left;
 }
 
-TD.headerLinkBarCell {
+td.headerLinkBarCell {
     vertical-align: top;
     text-align: left;
     padding-left: 10px;
 }
 
-TD.contentLeftNav {
+td.contentLeftNav {
     background-color: white;
     vertical-align: top;
     padding-right: 20px;
     height: 100%;
 }
 
-TD.fixedContentHeaderNavbar {
+td.fixedContentHeaderNavbar {
     background-color: white;
     vertical-align: top;
     height: 34px;
 }
 
-TD.dynamicContentSpacer {
+td.dynamicContentSpacer {
     background-color: white;
     vertical-align: top;
     height: 100%;
     width: 100%;
 }
 
-TD.bannerright {
+td.bannerright {
     background-color: #B3D8F2;
     padding: 5px;
     vertical-align: top;
     text-align: center;
 }
 
-TD.bannerleft {
+td.bannerleft {
     background-color: #B3D8F2;
     padding: 5px;
     /*padding-top: 80px;*/
@@ -506,7 +508,7 @@ ads_title {
     margin-top: 5px;
 }
 
-TD.bannerbottom {
+td.bannerbottom {
     background-color: #B3D8F2;
     padding: 5px;
     vertical-align: middle;
@@ -515,73 +517,73 @@ TD.bannerbottom {
     height: 60px;
 }
 
-TD.bannerbottom TABLE {
+td.bannerbottom table {
     margin-left: auto;
     margin-right: auto;
 }
 
 /* END: Cootent and Banner Definitions */
 
-TABLE.Navigation {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #cccccf;
-    FONT-FAMILY: Arial, Helvetica, sans-serif
+table.Navigation {
+    background-color: #cccccc;
+    color: #cccccf;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 TH {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    FONT-WEIGHT: bold;
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: bold;
     MARGIN: 0in
 }
 
-P {
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    
     MARGIN: 0in
 }
 
 TR {
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
     MARGIN: 0in
 }
 
-TR.dark {
-    BACKGROUND-COLOR: #f0f0f0;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif
+tr.dark {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-TR.light {
-    BACKGROUND-COLOR: #f8f8f8;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif
+tr.light {
+    background-color: #f8f8f8;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /* not sure if still used*/
-TD.Indent1 {
-    BACKGROUND-COLOR: #d0d0d0;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    FONT-WEIGHT: bold;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 3px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 3px;
+td.Indent1 {
+    background-color: #d0d0d0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 2px;
+    padding-top: 3px;
     TEXT-ALIGN: right;
     VERTICAL-ALIGN: top
 }
 
-TD.Indent1Selected {
-    BACKGROUND-COLOR: #f0f0f0;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 3px;
-    PADDING-TOP: 2px
+td.Indent1Selected {
+    background-color: #f0f0f0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
 }
 
 td.Indent2 {
@@ -610,19 +612,19 @@ div.internalServiceLink {
     background-color: #BDE4FF;
 }
 
-TR.SpacerRow {
+tr.SpacerRow {
     height: 25px;
 }
 
-TD.Indent3 {
-    BACKGROUND-COLOR: #f0f0f0;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 3px;
-    PADDING-TOP: 2px
+td.Indent3 {
+    background-color: #f0f0f0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
 }
 
-TD.Indent2Selected {
+td.Indent2Selected {
     background-color: #F0F0F0;
     height: 35px;
     min-width: 70px;
@@ -631,15 +633,15 @@ TD.Indent2Selected {
     text-align: center;
 }
 
-TD.Indent3Selected {
-    BACKGROUND-COLOR: #f0f0f0;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 3px;
-    PADDING-TOP: 2px
+td.Indent3Selected {
+    background-color: #f0f0f0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
 }
 
-TD.Indent2Disabled {
+td.Indent2Disabled {
     background-color: #F0F0F0;
     height: 35px;
     min-width: 70px;
@@ -648,417 +650,413 @@ TD.Indent2Disabled {
     text-align: center;
 }
 
-TD.Indent3Disabled {
-    BACKGROUND-COLOR: #d0d0d0;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 3px;
-    PADDING-TOP: 2px
+td.Indent3Disabled {
+    background-color: #d0d0d0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
 }
 
 /*end of not sure if still used*/
 TD {
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
     MARGIN: 0in
 }
 
-TD.TermDBDot {
-    BACKGROUND-COLOR: #e1e1e1;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 3px;
-    PADDING-TOP: 2px
+td.TermDBDot {
+    background-color: #e1e1e1;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    padding-top: 2px
 }
 
 /* not sure if still used*/
-TD.red {
-    BACKGROUND-COLOR: #df103f
+td.red {
+    background-color: #df103f
 }
 
 /*end not sure if still used*/
 
 .Headline {
     font: inherit;
-    FONT-SIZE: 18pt;
+    font-size: 18pt;
 }
 
-TD.globalLinkBar {
-    COLOR: #004D80;
-    FONT-SIZE: 9pt;
+td.globalLinkBar {
+    color: #004D80;
+    font-size: 9pt;
     vertical-align: bottom;
     text-align: left;
     width: 100px;
 }
 
-TD.notes {
-    FONT-SIZE: 9pt
+td.notes {
+    font-size: 9pt
 }
 
-TD.Toggle {
-    COLOR: #0073BF;
-    FONT-SIZE: 9pt
+td.Toggle {
+    color: #0073BF;
+    font-size: 9pt
 }
 
-TD.tiny {
-    COLOR: #0073BF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 11px;
+td.tiny {
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
     text-align: center;
 }
 
-TD.ToggleSelected {
-    COLOR: #000000;
-    FONT-SIZE: 9pt
+td.ToggleSelected {
+    color: #000000;
+    font-size: 9pt
 }
 
-TD.ToggleStartPage {
-    BACKGROUND-COLOR: #ffffff;
-    COLOR: #0099ff;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    PADDING-BOTTOM: 4px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 4px;
+td.ToggleStartPage {
+    background-color: #ffffff;
+    color: #0099ff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
     VERTICAL-ALIGN: top
 }
 
-TD.Topmenu1Space {
-    COLOR: #000000
+td.Topmenu1Space {
+    color: #000000
 }
 
-TD.Topmenu1 {
-    BACKGROUND-COLOR: #666666;
-    COLOR: #808040;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
+/*td.Topmenu1 {
+    background-color: #666666;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}
+*/
+.Topmenu1Container {
+    background-color: #666666;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-TD.Topmenu1Container {
-    BACKGROUND-COLOR: #666666;
-    COLOR: #808040;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 0px;
-    PADDING-TOP: 1px
-}
-
-TD.Topmenu2 {
+.Topmenu2 {
     color: #808040;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     padding: 1px 2px 0px
 }
 
-TD.Topmenu2Container {
-    BACKGROUND-COLOR: #f0f0f0;
-    COLOR: #808040;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
+td.Topmenu2Container {
+    background-color: #f0f0f0;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
 }
 
-TD.Topmenu3 {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
+td.Topmenu3 {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
 }
 
-TD.Topmenu1Disabled {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #808040;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
+td.Topmenu1Disabled {
+    background-color: #cccccc;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
 }
 
-TD.Topmenu1Expanded {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #0073BF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
-}
-
-TD.Topmenu2Selected {
-    BACKGROUND-COLOR: #f0f0f0;
-    COLOR: #0073BF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
-}
-
-TD.Topmenu2Disabled {
-    BACKGROUND-COLOR: #f0f0f0;
-    COLOR: #808040;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
-}
-
-TD.Topmenu1Seperator {
-    BACKGROUND-COLOR: #666666;
-    COLOR: #ffffff;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
-}
-
-TD.Topmenu2Seperator {
-    BACKGROUND-COLOR: #f0f0f0;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px
-}
-
-TD.Topmenu1Selected {
-    BACKGROUND-COLOR: #cccccc;
+.Topmenu1Expanded {
+    background-color: #cccccc;
     color: #0073BF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 0px
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
 }
 
-TD.Navbar0 {
-    BACKGROUND-COLOR: #dddddd;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    PADDING-BOTTOM: 4px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 4px
+.Topmenu2Selected {
+    background-color: #f0f0f0;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+   /* padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px*/
 }
 
-TD.Navbar0Selected {
-    BACKGROUND-COLOR: #dddddd;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    PADDING-BOTTOM: 4px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 4px
+/*.Topmenu2Disabled {
+    background-color: #f0f0f0;
+    color: #808040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}*/
+
+/*td.Topmenu1Seperator {
+    background-color: #666666;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+}*/
+
+td.Topmenu2Seperator {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+/*    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px
+*/}
+
+td.Topmenu1Selected {
+    background-color: #cccccc;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+/*    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px*/
 }
 
-TD.Navbar0Disabled {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    FONT-WEIGHT: bold;
-    PADDING-BOTTOM: 4px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 4px
+td.Navbar0 {
+    background-color: #dddddd;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-top: 4px
 }
 
-TD.Navbar1 {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    PADDING-BOTTOM: 4px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 4px;
+td.Navbar0Selected {
+    background-color: #dddddd;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-top: 4px
+}
+
+td.Navbar0Disabled {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-top: 4px
+}
+
+.Navbar1 {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar1Selected {
+    background-color: #e1e1e1;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar1Disabled {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar2 {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar2Disabled {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar2Selected {
+    background-color: #e1e1e1;
+    color: #0073BF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
+    /*VERTICAL-ALIGN: top*/
+}
+
+/*.Navbar3 {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
     VERTICAL-ALIGN: top
 }
 
-TD.Navbar1Selected {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #0073BF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    PADDING-BOTTOM: 4px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 4px;
+td.Navbar3Selected {
+    background-color: #e1e1e1;
+    color: #0082D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
     VERTICAL-ALIGN: top
 }
 
-TD.Navbar1Disabled {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 10pt;
-    PADDING-BOTTOM: 4px;
-    PADDING-LEFT: 2px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 4px;
+td.Navbar3Disabled {
+    background-color: #e1e1e1;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
     VERTICAL-ALIGN: top
 }
-
-TD.Navbar2 {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 1px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px;
+*/
+/*td.small {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 1px;
     VERTICAL-ALIGN: top
 }
-
-TD.Navbar2Disabled {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 1px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px;
-    VERTICAL-ALIGN: top
+*/
+/*td.Navbar1Seperator {
+    background-color: #000000;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px
 }
 
-TD.Navbar2Selected {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #0073BF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 1px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px;
-    VERTICAL-ALIGN: top
+td.tableNavTitle {
+    color: #000000
+}
+*/
+.search {
+    color: #ffffff;
+/*    background-color: #BDE4FF;*/
+    font-family: Arial, Helvetica, sans-serif
 }
 
-TD.Navbar3 {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 1px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px;
-    VERTICAL-ALIGN: top
-}
-
-TD.Navbar3Selected {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #0082D9;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 1px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px;
-    VERTICAL-ALIGN: top
-}
-
-TD.Navbar3Disabled {
-    BACKGROUND-COLOR: #e1e1e1;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 1px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px;
-    VERTICAL-ALIGN: top
-}
-
-TD.small {
-    BACKGROUND-COLOR: #cccccc;
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 8pt;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 1px;
-    PADDING-RIGHT: 2px;
-    PADDING-TOP: 1px;
-    VERTICAL-ALIGN: top
-}
-
-TD.Navbar1Seperator {
-    BACKGROUND-COLOR: #000000;
-    PADDING-BOTTOM: 0px;
-    PADDING-LEFT: 0px;
-    PADDING-RIGHT: 0px;
-    PADDING-TOP: 0px
-}
-
-TD.tableNavTitle {
-    COLOR: #000000
-}
-
-TD.search {
-    COLOR: #ffffff;
-    BACKGROUND-COLOR: #BDE4FF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif
-}
-
-TD.searchSmall {
-    COLOR: #004D80;
-    BACKGROUND-COLOR: #BDE4FF;
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
+.searchSmall {
+    color: #004D80;
+/*    background-color: #BDE4FF;*/
+    font-family: Arial, Helvetica, sans-serif;
     VERTICAL-ALIGN: middle;
     font-size: 11px;
 }
 
-TD.helpTitle {
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
+.helpTitle {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-TD.formFieldCell {
+.formFieldCell {
     margin: 1px 1px 1px 1px;
     padding: 10px;
     border: 1px solid white;
     VERTICAL-ALIGN: top;
 }
 
-TD.logo {
-    FONT-FAMILY: Arial, Helvetica, sans-serif; /**  COLOR: #004D80;**/
-    COLOR: #004D80;
-    VERTICAL-ALIGN: bottom;
+td.logo {
+    font-family: Arial, Helvetica, sans-serif; /**  color: #004D80;**/
+    color: #004D80;
+    /*VERTICAL-ALIGN: bottom;*/
     font-size: 11px;
     height: 20px;
 }
 
-DIV {
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif
+div {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-DIV.errormsg {
-    COLOR: #ff0000
+div.errormsg {
+    color: #ff0000
 }
 
-DIV.warning {
-    COLOR: #000000
+div.warning {
+    color: #000000
 }
 
-DIV.separator {
+div.separator {
     font-size: 1px;
     line-height: 1px;
     height: 1px;
@@ -1067,61 +1065,61 @@ DIV.separator {
     padding: 0;
 }
 
-SPAN {
-    COLOR: #000000;
-    FONT-FAMILY: Arial, Helvetica, sans-serif
+span {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-SPAN.ToggleSelected {
-    COLOR: #000000;
-    FONT-SIZE: 8pt
+span.ToggleSelected {
+    color: #000000;
+    font-size: 8pt
 }
 
-SPAN.errormsg {
+span.errormsg {
 
-    COLOR: #ff0000
+    color: #ff0000
 }
 
-SPAN.tableNavSelectedPageNo {
-    COLOR: #000000
+span.tableNavSelectedPageNo {
+    color: #000000
 }
 
-SPAN.list {
+span.list {
     color: red;
     font: bold;
 }
 
-SPAN.listText {
+span.listText {
     color: #000000;
     font: normal;
 }
 
 /* not sure if used */
-SPAN.red {
-    COLOR: #ff8000
+span.red {
+    color: #ff8000
 }
 
 /* end: not sure if used */
 
 PRE.text {
-    FONT-FAMILY: "Courier New", Courier, mono;
-    FONT-SIZE: 10pt;
+    font-family: "Courier New", Courier, mono;
+    
     FONT-STYLE: normal;
-    FONT-WEIGHT: bold;
+    font-weight: bold;
     LINE-HEIGHT: normal;
     WHITE-SPACE: pre
 }
 
-H2 {
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 16px;
-    FONT-WEIGHT: bold
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold
 }
 
-H3 {
-    FONT-FAMILY: Arial, Helvetica, sans-serif;
-    FONT-SIZE: 16px;
-    FONT-WEIGHT: bold
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold
 }
 
 /* START Script.aculo.us definitions for autocompletion */
@@ -1180,11 +1178,16 @@ div.dictionaryDropdown1 {
     z-index: 1;
 }
 
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 1240px;
+}
+
 .banner_container {
-    position: fixed;
-    top: 200px;
-    left: 20px;
-    margin-top: -100px;
+    float: left;
+    width: 160px;
 }
 
 #mainpage_banner1 {
@@ -1214,35 +1217,16 @@ div.dictionaryDropdown1 {
     vertical-align: top;
 }
 
-.wordnetSynonym {
+.wordnetSynonym,.wordnetSense, .wordnetExample, .wordnetHypernym, .wordnetHyponym, .wordnetOpposite {
     font-weight: bold;
 }
 
-.wordnetSense {
-    font-weight: bold;
-}
-
-.wordnetExample {
-    font-weight: bold;
-}
-
-.wordnetHypernym {
-    font-weight: bold;
-}
-
-.wordnetHyponym {
-    font-weight: bold;
-}
-
-.wordnetOpposite {
-    font-weight: bold;
-}
 
 /* END Script.aculo.us definitions for autocompletion */
 
 /*
-     FILE ARCHIVED ON 21:49:12 Sep 19, 2012 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:51:46 Nov 10, 2025.
+     FILE ARCHIVED ON 13:28:03 Apr 22, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:39:50 Jul 23, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1250,13 +1234,13 @@ div.dictionaryDropdown1 {
 */
 /*
 playback timings (ms):
-  captures_list: 0.927
-  exclusion.robots: 0.038
-  exclusion.robots.policy: 0.022
-  esindex: 0.015
-  cdx.remote: 7.295
-  LoadShardBlock: 65.635 (3)
-  PetaboxLoader3.datanode: 112.576 (5)
-  PetaboxLoader3.resolve: 911.121 (3)
-  load_resource: 1026.773 (2)
+  captures_list: 109.626
+  exclusion.robots: 0.231
+  exclusion.robots.policy: 0.221
+  cdx.remote: 0.074
+  esindex: 0.011
+  LoadShardBlock: 71.481 (3)
+  PetaboxLoader3.datanode: 99.123 (5)
+  load_resource: 181.34 (2)
+  PetaboxLoader3.resolve: 126.35 (2)
 */
