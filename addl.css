@@ -50,3 +50,16 @@
   grid-template-columns: 50% 50%;
   grid-gap: 0.2em;
 }
+
+.ctr {
+   text-align:center;
+
+}
+
+.t-c0-p2 {
+border-spacing:2px;
+}
+
+.t-c0-p2 th,td {
+  padding:0px;
+}
