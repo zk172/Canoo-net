@@ -24,57 +24,81 @@
 
 <h1></h1>
 
+<div class="banner_container">Hello</div>
+
+<div class="banner_container_r">
+    <img src="images/ads/iphone.jpg" alt="iphone" class="banner_content">
+<img src="images/ads/FindIT.png" alt="FindIT" class="banner_content">
+
+
+<img width="32" height="27" alt="zappmedia" src="images/ads/zappmedia.gif" class="banner_content" style="float:left;background-color: white;">
+    <div class="banner_content" style="background-color:white;">
+        ÜBERSETZUNGSBÜRO
+        <br>
+        Alle Sprachen [DIN]
+    </div>
+
+
+</div>
 
 
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4">
+              <div class="col-md-4">
             <img src="images/layout/canoo_net.gif" alt="Canoo logo">
+
+          <div class="logo">
+          German Dictionaries and Grammar<br> <a class="product" href="javascript:void(0);">Powered by&nbsp;<img src="images/layout/canoo.gif" alt="Canoo Logo"></a>
+          </div>
+        
         </div>
 
         <div class="col-md-4">
             <!-- <form> -->
-               <div class="search">  
-                <input type="text">
-<br>
-<label class="searchSmall">In:</label> 
-<select name="service" size="1" onchange="javascript:void(0);">
-<option selected value="canooNet">All</option>
-<option value="spelling">Dictionary Spelling</option>
-<option value="inflection">Dictionary Word Forms</option>
-<option value="wordformation">Dictionary Wordformation</option>
-<option value="morphology">Dictionary Morphology</option>
-<option value="leo">Dictionary LEO (D-E)</option>
-<option value="spellingRules">Spelling Rules</option>
-<option value="grammar">Grammar</option>
-<option value="wfRules">Wordformation Rules</option>
-<option value="glossary">Glossary Linguistic Terms</option>
-</select>
- 
-  <input type="button" value="Search">
-            <!-- </form> -->
+            <div class="search flex">
+            <input type="text" class="fill-width">
             </div>
+            
+            <div class="searchSmall flex">
+              <label for="service">In:</label> 
+              
+              <select id="service" size="1" class="fill-width" onchange="javascript:void(0);">
+              <option selected value="canooNet">All</option>
+              <option value="spelling">Dictionary Spelling</option>
+              <option value="inflection">Dictionary Word Forms</option>
+              <option value="wordformation">Dictionary Wordformation</option>
+              <option value="morphology">Dictionary Morphology</option>
+              <option value="leo">Dictionary LEO (D-E)</option>
+              <option value="spellingRules">Spelling Rules</option>
+              <option value="grammar">Grammar</option>
+              <option value="wfRules">Wordformation Rules</option>
+              <option value="glossary">Glossary Linguistic Terms</option>
+              </select>
+ &nbsp;
+              <input type="button" value="search">
+
+            </div>
+
         </div>
 
         <div class="col-md-1">
-            <p>Tools</p>
-            <p>Sitemap</p>
-            <p>Help</p>
+            <a class="globalLinkBar" href="javacsript:void(0);">Tools</a>
+            <a class="globalLinkBar" href="javacsript:void(0);">Sitemap</a>
+            <a class="globalLinkBar" href="javacsript:void(0);">Help</a>
         </div>
         <div class="col-md-1">
-            <p>Blog</p>
-            <p>Your questions</p>
-            <p>Newsletter</p>
+            <a class="globalLinkBar" href="javacsript:void(0);">Blog</a>
+            <a class="globalLinkBar" href="javacsript:void(0);">Your questions</a>
+            <a class="globalLinkBar" href="javacsript:void(0);">Newsletter</a>
         </div>
         <div class="col-md-1">
-            <p>About canoonet</p>
-            <p>User feedback</p>
-            <p>Imprint</p>
-            <p>Advertising</p>
+            <a class="globalLinkBar" href="javacsript:void(0);">About canoonet</a>
+            <a class="globalLinkBar" href="javacsript:void(0);">User feedback</a>
+            <a class="globalLinkBar" href="javacsript:void(0);">Imprint</a>
+            <a class="globalLinkBar" href="javacsript:void(0);">Advertising</a>
 
         </div>
-
 
 
     </div>
@@ -119,23 +143,24 @@
 
      <div class = "Navbar1">
 
-<ul>
+<ul style="line-height:180%">
   <li>Word order</li>
     <li>Word order types</li>
     <li>Position verb</li>
 </ul>
  
-<button type="button" class="collapsible">Topological fields</button>
+<button type="button" class="collapsible Navbar1">Topological fields</button>
     <div class="content">
     <ul>
-     <li>Vorfeld</li>
+     <li><a href="javascript:void(0);" class="Navbar2">Vorfeld</a></li>
      <li> 
-        <button type="button" class="collapsible">Mittelfeld</button>
-        <div class="content"><p>Something</p></div>
+        <button type="button" class="collapsible Navbar2">Mittelfeld</button>
+        <div class="content"><a href="javascript:void(0);" class="Navbar2">Something</a></div>
      </li>
-    <li>Nachfeld</li>
+    <li><a href="javascript:void(0);" class="Navbar2">Nachfeld</a></li>
     </ul>
     </div>
+
 
          </div> <!--END SIDEBAR-->
 
@@ -152,7 +177,7 @@
             <font size="-1">Post-field</font></h1>
 
         The Nachfeld is the topological field to the right of the right sentence bracket (see <a href="index.html#Anchor-Die-47857">Topological fields</a>).<br>
-        <br>The Nachfeld is occupied by constituents that can be placed after the right sentence bracket. Since the constituents are placed outside the brackets, the placing of a constuent in the Nachfeld is also called exbraciation. The Nachfeld can be occupied in all three <a href="/web/20160724084755/http://www.canoo.net/services/OnlineGrammar/Satz/Wortstellung/Stellungstyp.html">word order types</a> (verb-second, verb-first, verb-last).<br>
+        <br>The Nachfeld is occupied by constituents that can be placed after the right sentence bracket. Since the constituents are placed outside the brackets, the placing of a constuent in the Nachfeld is also called exbraciation. The Nachfeld can be occupied in all three <a href="javascript:void(0);">word order types</a> (verb-second, verb-first, verb-last).<br>
         <br>The Nachfeld is occupied when long constituents are taken out of the sentence brackets in order to increase the comprehensibility and clarity of the sentence.<br>
         <br>
 
@@ -255,7 +280,7 @@
             <hr>
         </span>
         <h2><a name="Anchor-Infinitiv-11481"></a>Infinitive clause in the Nachfeld</h2>
-        <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Komplex/Form/Infinitiv.html">Infinitive clauses</a> are usually placed in the Nachfeld:<br>
+        <a href="javascript:void(0);">Infinitive clauses</a> are usually placed in the Nachfeld:<br>
         <br>
         <table cellpadding="0" cellspacing="2">
             <tr>
@@ -385,7 +410,7 @@
         <br>
         <hr>
         <h2><a name="Anchor-14210"></a>Prepositional phrase in the Nachfeld</h2>
-        Long and complex <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzgliedbau/Praepositional.html">prepositional phrases</a> are often placed in the Nachfeld:<br>
+        Long and complex <a href="javascript:void(0);">prepositional phrases</a> are often placed in the Nachfeld:<br>
         <br>
         <table cellpadding="0" cellspacing="2">
             <tr>
@@ -417,9 +442,9 @@
         <span class="examples">Warum sollte ich noch reden </span><span class="explbold">mit diesem unausstehlichen Menschen!</span><span class="examples"><br>
             Niemand kommt mehr zur Ruhe </span><span class="explbold">in dieser hektischen Zeit.</span><br>
         <br>
-        Prepositional phrases can only be placed in the Nachfeld when they are complete constituents of a sentence, i.e. when they are <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Objekt/Praepositional.html">prepositional objects</a> or <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Adverbial/index.html">adverbials</a>.<br>
+        Prepositional phrases can only be placed in the Nachfeld when they are complete constituents of a sentence, i.e. when they are <a href="javascript:void(0);">prepositional objects</a> or <a href="javascript:void(0);">adverbials</a>.<br>
         <br>
-        <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Wort/Pronomen/PronAdv/index.html">Pronominal adverbs</a> can never be in the Nachfeld although they substitute for a prepositional phrase:<br>
+        <a href="javascript:void(0);">Pronominal adverbs</a> can never be in the Nachfeld although they substitute for a prepositional phrase:<br>
         <br>
         <table cellpadding="0" cellspacing="2">
             <tr>
@@ -438,7 +463,7 @@
         <br>
         <hr>
         <h2><a name="Anchor-Apposition-23240"></a>Apposition in the Nachfeld</h2>
-        Long and complex <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzgliedbau/Nomen/Apposition.html">loose appositions</a> can be placed in the Nachfeld:<br>
+        Long and complex <a href="javascript:void(0);">loose appositions</a> can be placed in the Nachfeld:<br>
         <br>
         <table cellpadding="0" cellspacing="2">
             <tr>
@@ -471,7 +496,7 @@
         <h2><a name="Anchor-Nicht-3800"></a>Not in the Nachfeld</h2>
         The following elements cannot be in the Nachfeld:
         <ul>
-            <li><a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Subjekt.html">subject</a>, <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Objekt/Akkusativ.html">accusative object</a>, <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Objekt/Dativ.html">dative object</a>, <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Objekt/Genitiv.html">genitive object</a>
+            <li><a href="javascript:void(0);">subject</a>, <a href="javascript:void(0);">accusative object</a>, <a href="javascript:void(0);">dative object</a>, <a href="javascript:void(0);">genitive object</a>
             <table cellpadding="0" cellspacing="2">
                 <tr>
                     <td valign="top">not:</td>
@@ -491,7 +516,7 @@
                 </tr>
             </table>
             <br>
-            <li><a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Praedikat/Praedikativ.html">predicative</a>:
+            <li><a href="javascript:void(0);">predicative</a>:
 
             <table cellpadding="0" cellspacing="2">
                 <tr>
@@ -504,7 +529,7 @@
                 </tr>
             </table>
             <br>
-            <li><a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Satz/Satzglied/Adverbial/index.html">adverbials</a> other than prepositional phrases (see <a href="#Anchor-14210">above</a>):
+            <li><a href="javascript:void(0);">adverbials</a> other than prepositional phrases (see <a href="#Anchor-14210">above</a>):
 
             <table cellpadding="0" cellspacing="2">
                 <tr>
@@ -521,7 +546,7 @@
                 </tr>
             </table>
             <br>
-            <li><a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Wort/Pronomen/PronAdv/index.html">pronominal adverbs</a>:<br>
+            <li><a href="javascript:void(0);">pronominal adverbs</a>:<br>
             <table cellpadding="0" cellspacing="2">
                 <tr>
                     <td valign="top">not:</td>
@@ -533,7 +558,7 @@
                 </tr>
             </table>
             <br>
-            <li>nouns belonging to an <a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Wort/Verb/VollHilfModal/Funktionsverb.html">empty verb construction</a>, even when they are part of a prepositional phrase:
+            <li>nouns belonging to an <a href="javascript:void(0);">empty verb construction</a>, even when they are part of a prepositional phrase:
             <table cellpadding="0" cellspacing="2">
                 <tr>
                     <td valign="top">not:</td>
@@ -545,7 +570,7 @@
                 </tr>
             </table>
             <br>
-            <li><a href="/web/20121113211505/http://canoo.net/services/OnlineGrammar/Wort/Adverb/Partikel/Modalpartikel.html">modal particles</a>:
+            <li><a href="javascript:void(0);">modal particles</a>:
 
             <table cellpadding="0" cellspacing="2">
                 <tr>

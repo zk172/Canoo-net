@@ -3,9 +3,6 @@ body {
     background-color: #BDE4FF;
 }
 
-body.title {
-    background-color: #BDE4FF;      /*  background-color: white;  */
-}
 
 a:unknown {
     color: #000000;
@@ -491,10 +488,9 @@ td.dynamicContentSpacer {
 }
 
 .banner_content {
-    margin:0 auto;
+    display:block;
+    margin:5px auto;
     background-color: #B3D8F2;
-    padding: 5px;
-    vertical-align: top;
     text-align: center;
 }
 
@@ -746,7 +742,7 @@ td.Topmenu1Space {
     color: #808040;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
-    padding: 1px 2px 0px
+    padding: 0 0 2px 0px;
 }
 
 td.Topmenu2Container {
@@ -877,12 +873,15 @@ td.Navbar0Disabled {
     background-color: #cccccc;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
-    
     padding-bottom: 4px;
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 4px;
     /*VERTICAL-ALIGN: top*/
+}
+
+.Navbar1 ul {
+    padding-left:3px;
 }
 
 .Navbar1Selected {
@@ -1007,13 +1006,13 @@ td.tableNavTitle {
 */
 .search {
     color: #ffffff;
-/*    background-color: #BDE4FF;*/
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:0.75rem;
 }
 
 .searchSmall {
+    margin-top:0.35rem;
     color: #004D80;
-/*    background-color: #BDE4FF;*/
     font-family: Arial, Helvetica, sans-serif;
     VERTICAL-ALIGN: middle;
     font-size: 11px;
