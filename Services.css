@@ -490,20 +490,14 @@ td.dynamicContentSpacer {
     width: 100%;
 }
 
-td.bannerright {
+.banner_content {
+    margin:0 auto;
     background-color: #B3D8F2;
     padding: 5px;
     vertical-align: top;
     text-align: center;
 }
 
-td.bannerleft {
-    background-color: #B3D8F2;
-    padding: 5px;
-    /*padding-top: 80px;*/
-    vertical-align: top;
-    text-align: center;
-}
 
 ads_title {
     margin-top: 5px;
@@ -1037,7 +1031,7 @@ td.tableNavTitle {
     VERTICAL-ALIGN: top;
 }
 
-td.logo {
+.logo {
     font-family: Arial, Helvetica, sans-serif; /**  color: #004D80;**/
     color: #004D80;
     /*VERTICAL-ALIGN: bottom;*/
@@ -1188,8 +1182,18 @@ div.dictionaryDropdown1 {
 }
 
 .banner_container {
+    height:100%;
     float: left;
     width: 160px;
+    background-color: #B3D8F2;
+}
+
+
+.banner_container_r {
+    height:100%;
+    float: right;
+    width: 160px;
+    background-color: #B3D8F2;
 }
 
 #mainpage_banner1 {

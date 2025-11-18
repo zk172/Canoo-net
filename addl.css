@@ -1,7 +1,13 @@
 @media (min-width: 1200px) {
 .container{
-    width: 90%;
+    width: 75%;
 }
+
+html,body{
+  height:100vh;
+}
+
+
 
 .no-margin {
     margin:0px !important;
@@ -22,6 +28,7 @@ ul.menu li {
 ul.menu1 {
  color:#fff;
 }
+
 
 
 .collapsible {
