@@ -1,25 +1,33 @@
 @media (min-width: 1200px) {
 .container{
-    width: 75%;
+    width: 60%;
 }
 
-}
-
-@media (min-width: 768px) {
-    .medium-screen-and-below {
-      display:none;
-    }
 }
 
 @media (max-width: 768px) {
-    .t-c0-p2 {
-      display:none;
-    }
-    .medium-screen-and-below {
-        display: block;
-        margin-top:1em;
-    }
+  .banner_container_r {
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 160px;
+    background-color: #B3D8F2;
   }
+}
+
+
+@media (min-width: 576px) {
+   .pl-0 {
+     padding-left:0;
+   }
+   
+   .pr-0 {
+     padding-right:0;
+   }
+}
+
+
 
 html,body{
   height:100vh;
@@ -58,13 +66,7 @@ ul.navbar {
   line-height:1.8;
 }
 
-.pl-0 {
-  padding-left:0;
-}
 
-.pr-0 {
-  padding-right:0;
-}
 
 .fill-width {
   flex:1;
@@ -76,9 +78,6 @@ ul.navbar {
 /*  justify-content: space-between;*/
 }
 
-.m-top1 {
-  margin-top:3em;
-}
 
 .collapsible {
 /*  background-color: #777;*/
