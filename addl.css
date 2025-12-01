@@ -8,9 +8,7 @@
 @media (max-width: 768px) {
   .banner_container_r {
     height:100%;
-    position:absolute;
-    top:0;
-    left:0;
+    transform:translate(calc(-1*(100vw - 160px)),0);
     width: 160px;
     background-color: #B3D8F2;
   }
