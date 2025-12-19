@@ -3,7 +3,7 @@ td.rowTitle {
 }
 .coltitle {
     background-color: #cccccc; color: #000000; font-family: Arial, Helvetica;
-    text-align:center;
+/*    text-align:center;*/
 }
 td.article {
     background-color: #cccccc; color: #000000; font-family: Arial, Helvetica
