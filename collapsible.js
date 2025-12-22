@@ -11,7 +11,7 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     var imgElem = document.createElement("img");
     if (content.style.display === "block") {
-      if(this.parentElement.firstElementChild.tagName == "IMG") this.previousElementSibling.remove();
+      if(this.previousElementSibling.tagName == "IMG") this.previousElementSibling.remove();
       
       imgElem.src = path1;
       this.parentElement.insertBefore(imgElem,this);
@@ -21,7 +21,7 @@ for (i = 0; i < coll.length; i++) {
     } 
 
     else {
-      if(this.parentElement.firstElementChild.tagName == "IMG") this.previousElementSibling.remove();
+      if(this.previousElementSibling.tagName == "IMG") this.previousElementSibling.remove();
       
       imgElem.src = path2;
       this.parentElement.insertBefore(imgElem,this);
