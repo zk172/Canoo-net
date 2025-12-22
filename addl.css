@@ -68,6 +68,9 @@ ul.navbar {
   line-height:1.8;
 }
 
+.content ul {
+  list-style-type:none;
+}
 
 
 .fill-width {
