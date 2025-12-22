@@ -19,7 +19,7 @@
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
    .pl-0 {
      padding-left:0;
    }
@@ -98,7 +98,7 @@ ul.navbar {
 
 .content {
 /*margin:-.5em;*/
-  padding: 0 18px;
+  padding: 0 5px;
   display: block;
   overflow: hidden;
   background-color: #e1e1e1;
