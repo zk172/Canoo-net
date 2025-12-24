@@ -1,16 +1,17 @@
 var coll = document.getElementsByClassName("collapsible");
 var i;
+
 // imgElem.style.marginLeft = '-15px';  
 path1 = 'images/layout/menuarrowright.gif';
 path2 = 'images/layout/menuarrowdown.gif';
 
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+function imageCollapse() {
+
+  this.classList.toggle("active");
     var content = this.nextElementSibling;
     var imgElem = document.createElement("img");
-    if (content.style.display === "block") {
+    if (content.style.display === "block" || content.style.display === "") {
       if(this.previousElementSibling.tagName == "IMG") this.previousElementSibling.remove();
       
       imgElem.src = path1;
@@ -26,8 +27,12 @@ for (i = 0; i < coll.length; i++) {
       imgElem.src = path2;
       this.parentElement.insertBefore(imgElem,this);
       content.style.display = "block";
-
       
     }
-  });
+  
+}
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", imageCollapse)
+    
 }
