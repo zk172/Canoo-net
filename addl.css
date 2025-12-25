@@ -84,9 +84,20 @@ ul.navbar {
 flex-wrap:wrap;
 }
 
-.flex>div{
+.flex .coltitle{
   padding:0 5px;
+  min-height:48px;
+  margin:1.3em 0;
 }
+.flex .coltitle > span {
+  position: relative;
+  top: 35%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
 
 .collapsible {
 /*  background-color: #777;*/
