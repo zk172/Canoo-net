@@ -1,14 +1,38 @@
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+// imgElem.style.marginLeft = '-15px';  
+path1 = 'images/layout/menuarrowright.gif';
+path2 = 'images/layout/menuarrowdown.gif';
+
+
+function imageCollapse() {
+
+  this.classList.toggle("active");
     var content = this.nextElementSibling;
-    if (content.style.display === "block") {
+    var imgElem = document.createElement("img");
+    if (content.style.display === "block" || content.style.display === "") {
+      if(this.previousElementSibling.tagName == "IMG") this.previousElementSibling.remove();
+      
+      imgElem.src = path1;
+      this.parentElement.insertBefore(imgElem,this);
+
       content.style.display = "none";
-    } else {
+      
+    } 
+
+    else {
+      if(this.previousElementSibling.tagName == "IMG") this.previousElementSibling.remove();
+      
+      imgElem.src = path2;
+      this.parentElement.insertBefore(imgElem,this);
       content.style.display = "block";
+      
     }
-  });
+  
+}
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", imageCollapse)
+    
 }

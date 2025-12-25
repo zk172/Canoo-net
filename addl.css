@@ -19,7 +19,7 @@
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
    .pl-0 {
      padding-left:0;
    }
@@ -68,6 +68,9 @@ ul.navbar {
   line-height:1.8;
 }
 
+.content ul {
+  list-style-type:none;
+}
 
 
 .fill-width {
@@ -78,8 +81,12 @@ ul.navbar {
   display:flex;
 /*  flex-direction: row;*/
 /*  justify-content: space-between;*/
+flex-wrap:wrap;
 }
 
+.flex>div{
+  padding:0 5px;
+}
 
 .collapsible {
 /*  background-color: #777;*/
@@ -95,7 +102,7 @@ ul.navbar {
 
 .content {
 /*margin:-.5em;*/
-  padding: 0 18px;
+  padding: 0 5px;
   display: block;
   overflow: hidden;
   background-color: #e1e1e1;
