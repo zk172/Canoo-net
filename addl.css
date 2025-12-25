@@ -81,8 +81,12 @@ ul.navbar {
   display:flex;
 /*  flex-direction: row;*/
 /*  justify-content: space-between;*/
+flex-wrap:wrap;
 }
 
+.flex>div{
+  padding:0 5px;
+}
 
 .collapsible {
 /*  background-color: #777;*/
