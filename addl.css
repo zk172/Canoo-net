@@ -53,13 +53,23 @@ flex-wrap:wrap;
 
 .flex2 {
     margin:1.3em 0;
+
+.flex>div{
+  padding:0 5px;
+
 }
 
-.flex2 .coltitle{
+
+
+.flex .coltitle, .flex2 .coltitle{
   padding:0 5px;
   min-height:48px;
-  flex-grow:1;
 }
+
+.flex2 .coltitle {
+flex-grow:1;
+}
+
 .flex2 .coltitle > span {
   position: relative;
   top: 35%;
