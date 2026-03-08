@@ -268,15 +268,17 @@ a.Navbar2:active {
     text-decoration: none
 }
 
-a.Navbar2:hover {
-    font-weight: normal;
-    text-decoration: underline
-}
-
 a.Navbar2:link {
     color: #000000;
-    text-decoration: none
+    text-decoration: underline;
 }
+
+a.Navbar2:hover {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
 
 a.Navbar2:visited {
     color: #000000;
@@ -295,14 +297,14 @@ a.Navbar3:active {
     text-decoration: none
 }
 
-a.Navbar3:hover {
-    font-weight: normal;
-    text-decoration: underline
-}
 
 a.Navbar3:link {
     color: #000000;
-    text-decoration: none
+    text-decoration: underline;
+}
+a.Navbar3:hover {
+    font-weight: normal;
+    text-decoration: none;
 }
 
 a.Navbar3:visited {
