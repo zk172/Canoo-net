@@ -163,29 +163,7 @@ a.Topmenu2:visited {
     text-decoration: none
 }
 
-a.tableNavLinkedPageNo {
-    color: #0073BF;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    text-decoration: none
-}
 
-a.tableNavLinkedPageNo:link {
-    color: #0073BF
-}
-
-a.tableNavLinkedPageNo:visited {
-    color: #0073BF
-}
-
-a.tableNavLinkedPageNo:active {
-    color: #0073BF
-}
-
-a.tableNavLinkedPageNo:hover {
-    font-weight: normal;
-    text-decoration: underline
-}
 
 a.Navbar1Selected {
     color: #0073BF;
@@ -242,15 +220,16 @@ a.Navbar1:active {
     text-decoration: none
 }
 
-a.Navbar1:hover {
-    font-weight: normal;
-    text-decoration: underline
-}
-
 a.Navbar1:link {
     color: #000000;
-    text-decoration: none
+    text-decoration: underline;
 }
+
+a.Navbar1:hover {
+    font-weight: normal;
+    text-decoration: none;
+}
+
 
 a.Navbar1:visited {
     color: #000000;
@@ -416,15 +395,7 @@ table {
 
 /* BEGIN: Content and Banner Definitions */
 
-td.content {
-    background-color: white;
-    vertical-align: top;
-    height: 100%;
-}
 
-tr.contentBlue {
-    background-color: #BDE4FF;
-}
 
 .contentGrey {
     background-color: #B3D8F2;
@@ -446,48 +417,7 @@ tr.contentBlue {
 /*    height: 100%;*/
 }
 
-td.contentSpacer {
-    background-color: white;
-    vertical-align: top;
-    height: 20px;
-}
 
-td.headerLogoCell {
-    vertical-align: top;
-    height: 60px;
-    background-color: #BDE4FF;
-}
-
-td.headerFormCell {
-    vertical-align: top;
-    text-align: left;
-}
-
-td.headerLinkBarCell {
-    vertical-align: top;
-    text-align: left;
-    padding-left: 10px;
-}
-
-td.contentLeftNav {
-    background-color: white;
-    vertical-align: top;
-    padding-right: 20px;
-    height: 100%;
-}
-
-td.fixedContentHeaderNavbar {
-    background-color: white;
-    vertical-align: top;
-    height: 34px;
-}
-
-td.dynamicContentSpacer {
-    background-color: white;
-    vertical-align: top;
-    height: 100%;
-    width: 100%;
-}
 
 .banner_content {
     display:block;
@@ -501,19 +431,6 @@ ads_title {
     margin-top: 5px;
 }
 
-td.bannerbottom {
-    background-color: #B3D8F2;
-    padding: 5px;
-    vertical-align: middle;
-    text-align: center;
-    width: 100%;
-    height: 60px;
-}
-
-td.bannerbottom table {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /* END: Cootent and Banner Definitions */
 
@@ -544,134 +461,6 @@ TR {
     MARGIN: 0in
 }
 
-tr.dark {
-    background-color: #f0f0f0;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-tr.light {
-    background-color: #f8f8f8;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-/* not sure if still used*/
-td.Indent1 {
-    background-color: #d0d0d0;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    font-weight: bold;
-    padding-bottom: 0px;
-    padding-left: 3px;
-    padding-right: 2px;
-    padding-top: 3px;
-    TEXT-ALIGN: right;
-    VERTICAL-ALIGN: top
-}
-
-td.Indent1Selected {
-    background-color: #f0f0f0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
-}
-
-td.Indent2 {
-    background-color: #F0F0F0;
-    height: 35px;
-    min-width: 70px;
-    padding-left: 7px;
-    padding-right: 7px;
-    text-align: center;
-}
-
-span.moreDictBottom {
-    margin-left: 17px;
-}
-
-span.moreDictArrowBottom {
-    margin-left: 10px;
-    *margin-left: 12px;
-}
-
-td.Indent2first {
-    text-align: left !important;
-}
-
-div.internalServiceLink {
-    background-color: #BDE4FF;
-}
-
-tr.SpacerRow {
-    height: 25px;
-}
-
-td.Indent3 {
-    background-color: #f0f0f0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
-}
-
-td.Indent2Selected {
-    background-color: #F0F0F0;
-    height: 35px;
-    min-width: 70px;
-    padding-left: 7px;
-    padding-right: 7px;
-    text-align: center;
-}
-
-td.Indent3Selected {
-    background-color: #f0f0f0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
-}
-
-td.Indent2Disabled {
-    background-color: #F0F0F0;
-    height: 35px;
-    min-width: 70px;
-    padding-left: 7px;
-    padding-right: 7px;
-    text-align: center;
-}
-
-td.Indent3Disabled {
-    background-color: #d0d0d0;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
-}
-
-/*end of not sure if still used*/
-TD {
-    font-family: Arial, Helvetica, sans-serif;
-    
-    MARGIN: 0in
-}
-
-td.TermDBDot {
-    background-color: #e1e1e1;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 3px;
-    padding-top: 2px
-}
-
-/* not sure if still used*/
-td.red {
-    background-color: #df103f
-}
-
-/*end not sure if still used*/
 
 .Headline {
     font: inherit;
@@ -679,22 +468,7 @@ td.red {
     margin-top:0;
 }
 
-td.globalLinkBar {
-    color: #004D80;
-    font-size: 9pt;
-    vertical-align: bottom;
-    text-align: left;
-    width: 100px;
-}
 
-td.notes {
-    font-size: 9pt
-}
-
-td.Toggle {
-    color: #0073BF;
-    font-size: 9pt
-}
 
 .tiny {
     color: #0073BF;
@@ -944,7 +718,7 @@ td.Navbar0Disabled {
     /*VERTICAL-ALIGN: top*/
 }
 
-/*.Navbar3 {
+.Navbar3 {
     background-color: #e1e1e1;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
@@ -956,7 +730,7 @@ td.Navbar0Disabled {
     VERTICAL-ALIGN: top
 }
 
-td.Navbar3Selected {
+.Navbar3Selected {
     background-color: #e1e1e1;
     color: #0082D9;
     font-family: Arial, Helvetica, sans-serif;
@@ -968,7 +742,7 @@ td.Navbar3Selected {
     VERTICAL-ALIGN: top
 }
 
-td.Navbar3Disabled {
+.Navbar3Disabled {
     background-color: #e1e1e1;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
@@ -979,7 +753,7 @@ td.Navbar3Disabled {
     padding-top: 1px;
     VERTICAL-ALIGN: top
 }
-*/
+
 /*td.small {
     background-color: #cccccc;
     color: #000000;
