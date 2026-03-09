@@ -34,5 +34,7 @@ function imageCollapse() {
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", imageCollapse)
-    
+  coll[i].nextElementSibling.style.display="none";
+  coll[i].previousElementSibling.src=path1;
+
 }
