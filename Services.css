@@ -514,7 +514,7 @@ td.Topmenu1Space {
     padding: 0 0 2px 0px;
 }
 
-td.Topmenu2Container {
+.Topmenu2Container {
     background-color: #f0f0f0;
     color: #808040;
     font-family: Arial, Helvetica, sans-serif;
@@ -564,7 +564,7 @@ td.Topmenu1Disabled {
     padding-top: 1px*/
 }
 
-/*.Topmenu2Disabled {
+.Topmenu2Disabled {
     background-color: #f0f0f0;
     color: #808040;
     font-family: Arial, Helvetica, sans-serif;
@@ -572,7 +572,7 @@ td.Topmenu1Disabled {
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 1px
-}*/
+}
 
 /*td.Topmenu1Seperator {
     background-color: #666666;

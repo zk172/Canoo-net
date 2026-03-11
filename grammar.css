@@ -37,7 +37,7 @@ td.colArt {
 td.colArtPlural {
     background-color: #ffb6c1; color: #000000; font-family: Arial, Helvetica
 }
-td.titleBold {
+.titleBold {
     background-color: #cccccc; color: #000000; font-family: Arial, Helvetica; FONT-WEIGHT: bold
 }
 td.colTitleWhite {
