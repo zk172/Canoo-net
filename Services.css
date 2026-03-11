@@ -445,8 +445,8 @@ TH {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    
-    MARGIN: 0in
+    margin-top:1rem;
+/*    MARGIN: 0in*/
 }
 
 TR {
