@@ -521,7 +521,7 @@ td.Topmenu1Space {
     padding-bottom: 0px;
     padding-left: 2px;
     padding-right: 2px;
-    padding-top: 1px
+    padding-top: 1px;
 }
 
 td.Topmenu3 {
@@ -594,7 +594,7 @@ td.Topmenu2Seperator {
     padding-top: 1px
 */}
 
-td.Topmenu1Selected {
+.Topmenu1Selected {
     background-color: #cccccc;
     color: #0073BF;
     font-family: Arial, Helvetica, sans-serif;

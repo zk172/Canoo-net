@@ -12,8 +12,8 @@
 <link rel="stylesheet" href="Services.css" />
 <link rel="stylesheet" href="addl.css" />
 
-<script src="/web/20121015122423js_/http://canoo.net/services/scripts/suggestions.js" type="text/javascript"></script>
-<script type="text/javascript">
+<script src="scripts/suggestions.js"></script>
+<script>
   function setFocus() {
     var inputField = document.getElementById("input");
     if (inputField != null) {
@@ -129,7 +129,7 @@
         <li>|<a class="Topmenu1" href="javascript:void(0);">Wörterbücher</a></li> 
         <li>| <a class="Topmenu1" href="javascript:void(0);">Wortgrammatik</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Wortbildung</a></li>
-        <li>| <a class="Topmenu1" href="canoo_topbar_selected.html">Satzgrammatik</a></li>
+        <li>| <a class="Topmenu1Selected" href="canoo_topbar_selected.html">Satzgrammatik</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Rechtschreibung</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Glossar</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Fachbegriffe&nbsp;A-Z</a> |</li> 
@@ -139,9 +139,9 @@
 
     <div class="row">
       <div class="col-md-12" style="">
-          <ul class="menu Topmenu2Selected">
+          <ul class="menu Topmenu2Container">
               <li>| <a class="Topmenu2" href="javascript:void(0);">Überblick</a>  </li>
-              <li>| <a class="Topmenu2" href="javascript:void(0);">Satzarten</a>  </li>
+              <li>| <a class="Topmenu2Selected" href="javascript:void(0);">Satzarten</a>  </li>
               <li>| <a class="Topmenu2" href="javascript:void(0);">Satzglieder</a>  </li>
               <li>| <a class="Topmenu2" href="javascript:void(0);">Satzgliedbau</a>  </li>
               <li>| <a class="Topmenu2" href="javascript:void(0);">Satzbaupl&auml;ne</a> </li>
@@ -192,10 +192,9 @@
           <div class="contentWhite">
                   <h1 class="Headline" style="margin-top:0">Die Erg&auml;nzungsfrage</h1>
 
-    <p>Mit einer Erg&auml;nzungsfrage wird nach einem Aspekt des in der Frage ausgedr&uuml;ckten Sachverhaltes gefragt. Nach dem Aspekt wird mit einem Fragewort gefragt: <i>wer, wann, wie, wieso, wohin </i>usw. (<i>Wer geht weg? Wann gehst du weg?</i>).<br>
-		<br>
-		Dies im Gegensatz zur <a href="Entscheidung.html">Entscheidungsfrage</a>, mit der man nach dem Wahrheitsgehalt des ganzen in der Frage formulierten Sachverhalts fragt (<i>Gehst du weg?</i>).</p><br>
-		<br>
+    <p>Mit einer Erg&auml;nzungsfrage wird nach einem Aspekt des in der Frage ausgedr&uuml;ckten Sachverhaltes gefragt. Nach dem Aspekt wird mit einem Fragewort gefragt: <i>wer, wann, wie, wieso, wohin </i>usw. (<i>Wer geht weg? Wann gehst du weg?</i>).</p>
+		
+	<p>Dies im Gegensatz zur <a href="Entscheidung.html">Entscheidungsfrage</a>, mit der man nach dem Wahrheitsgehalt des ganzen in der Frage formulierten Sachverhalts fragt (<i>Gehst du weg?</i>).</p>
 		<table border="0" cellpadding="0" cellspacing="2">
 			<tr>
 				<td class="colgrammar"><a href="#Anchor-Merkmale-49575">Merkmale</a></td>
@@ -206,8 +205,9 @@
 		</table>
 		<br>
 		<hr>
-		<h2><a name="Anchor-Merkmale-49575"></a>Merkmale</h2>Erg&auml;nzungsfragen haben die folgenden Merkmale:<br>
-		<br>
+		<h2><a name="Anchor-Merkmale-49575"></a>Merkmale</h2>
+		<p>Erg&auml;nzungsfragen haben die folgenden Merkmale:</p>
+		
 		<table border="0" cellpadding="0" cellspacing="2">
 			<tr>
 				<td valign="top" class="coltitle">Fragewort</td>
@@ -230,9 +230,7 @@
 				<td valign="top" class="colgrammar">Ein Fragesatz wird mit einem Fragezeichen abgeschlossen.</td>
 			</tr>
 		</table>
-		<br>
-		<b>Beispiele:</b><br>
-		<br>
+		<h4>Beispiele:</h4>
 		<span class="examples">Was isst du?<br>
 			Wann ist er in Frankfurt angekommen?<br>Wie k&ouml;nnte sich der Unfall zugetragen haben?</span><br>
 		<br>
@@ -254,11 +252,9 @@
 				<td valign="top" class="colgrammar"><i>wo, woher, wohin; wann, wie lange, wie oft; wie; warum, weshalb, weswegen, wieso&nbsp;</i></td>
 			</tr>
 		</table>
-		<br>
-		<b><i>wer, was</i> (und Pronominaladverbien)<br>
-		</b><br>
+
+		<h4><i>wer, was</i> (und Pronominaladverbien)</h4>
 		<p>Mit <i><a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/InflectionRules/FRegeln-P/Pron-wer-was.html">wer</a></i> wird nach Personen gefragt, mit <i><a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/InflectionRules/FRegeln-P/Pron-wer-was.html">was</a></i> nach Dingen, Sachverhalten usw.</p>
-		<br>
 		<span class="explbold">Wer</span><span class="examples"> geht weg?<br>
 		</span><span class="explbold">Wen</span><span class="examples"> habt ihr gesehen?<br>
 		</span><span class="explbold">Wem</span><span class="examples"> hast du das Buch gegeben?<br>
@@ -268,10 +264,9 @@
 			<br>
 		</span><span class="explbold">Was</span><span class="examples"> geht hier vor?<br>
 		</span><span class="explbold">Was</span><span class="examples"> hast du gesagt?<br>
-		</span><span class="explbold">Wessen</span><span class="examples"> erinnert ihr euch noch?</span><br>
-		<br>
+		</span><span class="explbold">Wessen</span><span class="examples"> erinnert ihr euch noch?</span>
 		<p>Statt der Kombination Pr&auml;position + <i>was</i> steht in der Standardsprache ein <a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/Wort/Pronomen/PronAdv/Form.html">Pronominaladverb</a> der Form <i>wo(r)-</i>:</p>
-		<br>
+		<!-- <br> -->
 		<table cellpadding="0" cellspacing="2">
 			<tr>
 				<td valign="top" class="colexpl"><span class="explbold">Womit</span><span class="examples"> hast du die Uhr repariert?&nbsp;</span></td>
@@ -289,35 +284,26 @@
 				<td valign="top" class="colexpl"><span class="examples">Nach was riecht es hier?</span></td>
 			</tr>
 		</table>
-		<br>
-		
 		<p>Siehe <a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/Wort/Pronomen/PronAdv/Funktion.html#Anchor-wo-35882">Pronominaladverbien f&uuml;r Interrogativpronomen</a>.</p>
-		<br>
-		<b><i>welcher, was f&uuml;r ein</i></b><br>
-		<br>
-		Man fragt mit <a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/InflectionRules/FRegeln-P/Pron-welcher3.html">welcher</a> nach einem einzelnen Wesen, einem einzelnen Ding aus einer Gruppe, einer Klasse, einer Gattung usw.<br>
-		<br>
+		
+		<h4><i>welcher, was f&uuml;r ein</i></h4>
+		<p>Man fragt mit <a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/InflectionRules/FRegeln-P/Pron-welcher3.html">welcher</a> nach einem einzelnen Wesen, einem einzelnen Ding aus einer Gruppe, einer Klasse, einer Gattung usw.</p>
 		<span class="explbold">Welches</span><span class="examples"> (Bild) gef&auml;llt dir am besten?<br>
-		</span><span class="explbold">Welcher</span><span class="examples"> Dummkopf hat die T&uuml;r nicht abgeschlossen?</span><br>
-		<br>
-		Mit dem Ausdruck <i><a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/InflectionRules/FRegeln-P/Pron-was_fuer.html">was f&uuml;r (ein)</a></i> fragt man nach der Beschaffenheit, einer Eigenschaft, einem Merkmal usw:<br>
-		<br>
+		</span><span class="explbold">Welcher</span><span class="examples"> Dummkopf hat die T&uuml;r nicht abgeschlossen?</span>
+		<p>Mit dem Ausdruck <i><a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/InflectionRules/FRegeln-P/Pron-was_fuer.html">was f&uuml;r (ein)</a></i> fragt man nach der Beschaffenheit, einer Eigenschaft, einem Merkmal usw:</p>
 		<span class="examples">Von </span><span class="explbold">was f&uuml;r einem</span><span class="examples"> Auto tr&auml;umt er?<br>
-		</span><span class="explbold">Was f&uuml;r</span><span class="examples"> Leute besuchen einen solchen Club?</span><br>
-		<br>
-		<b>Frageadverbien</b><br>
-		<br>
+		</span><span class="explbold">Was f&uuml;r</span><span class="examples"> Leute besuchen einen solchen Club?</span>
+		<h4>Frageadverbien</h4>
 		<p>Mit <a href="/web/20121015122423/http://canoo.net/services/OnlineGrammar/Wort/Adverb/Klasse/Frage.html">Frageadverbien</a> wird nach Umst&auml;nden wie Zeitpunkt (<i>wann</i>), Ort (<i>wo</i>), Methode (<i>wie</i>), Ursache (<i>weshalb</i>) usw. gefragt.</p>
-		<br>
 		<span class="explbold">Wann</span><span class="examples"> ist er angekommen?<br>
 		</span><span class="explbold">Wo</span><span class="examples"> wohnen Sie?<br>
 		</span><span class="explbold">Wie</span><span class="examples"> hast du das Fenster repariert?<br>
 		</span><span class="explbold">Weshalb</span><span class="examples"> seid ihr nicht fr&uuml;her gekommen?</span><br>
 		<br>
-		<hr>
+        <hr style="margin-bottom:4rem;">
+		<!-- <br>
 		<br>
-		<br>
-		<br>
+		<br> -->
 <div class="contentCopyright">
 <p class="tiny"><br><br>Copyright &copy; 2000-2016 <a href="https://web.archive.org/web/20160721042947/http://www.canoo.com/">Canoo Engineering AG</a>, Kirschgartenstr. 5, CH-4051 Basel, tel. +41 61 228 94 44. All Rights Reserved.</p>
 
