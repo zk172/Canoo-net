@@ -2,24 +2,61 @@
 <html>
 <head>
 
-     <!-- Required meta tags -->
+   <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.css" >
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.css" >
 
 <link rel="stylesheet" href="grammar.css" />
 <link rel="stylesheet" href="Services.css" />
 <link rel="stylesheet" href="addl.css" />
+  <style>
 
-<title>canoonet - Word order: Sentence brackets and topological fields</title>
+  </style>
 
+   <meta name="generator" content="Canoo Engineering AG">
+    <title>Position of the object in the Mittelfeld</title>
+    <meta name="keywords" content="word order, topological field, Mittelfeld, object, accusative object, dative object, genitive object, prepositional object">
+    <meta name="description" content="Word order: Mittelfeld: Objects">
+
+<link rel="icon" type="image/png" href="canoo_favicon.png">
+
+<script src="scripts/suggestions.js"></script>
+<script>
+  function setFocus() {
+    var inputField = document.getElementById("input");
+    if (inputField != null) {
+         inputField.focus();
+         inputField.select();
+    }
+  }
+</script>
+ 
+  
 </head>
 
-
+	
 <body>
 
-<h1></h1>
+
+<script>
+    function checkCurse(name)
+    {
+        name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+        var regexS = "[\\?&]"+name+"=([^&#]*)";
+        var regex = new RegExp( regexS );
+        var results = regex.exec( window.location.href );
+        if( results == null )
+            return "";
+        else
+            return results[1];
+    }
+</script>
+
+
+<script src="scripts/schimpf.js"></script>
+
 
 <div class="banner_container">Hello</div>
 
@@ -39,17 +76,10 @@
 </div>
 
 
+
 <div class="container">
-
-<div class="row">
-  <div class="col-md-12">
-
-   </div>
-</div>
-
-
     <div class="row">
-        <div class="col-md-4">
+              <div class="col-md-4">
             <img src="images/layout/canoo_net.gif" alt="Canoo logo">
 
           <div class="logo">
@@ -86,7 +116,7 @@
 
         </div>
 
-        <div class="col-md-1">
+       <div class="col-md-1">
             <ul class="menu2">
             <li><a class="globalLinkBar" href="javascript:void(0);">Tools</a></li>
             <li><a class="globalLinkBar" href="javascript:void(0);">Sitemap</a></li>
@@ -110,37 +140,35 @@
         </div>
 
 
-
     </div>
     
 
-    <div class="row">
+    <div  class="row">
       <div class="col-md-12">
           
        <ul class="menu menu1 Topmenu1Container">
 
-        <li>| <a class="Topmenu1" href="javascript:void(0);">Dictionaries</a></li> 
+        <li>| <a class="Topmenu1" href="canoo.html">Dictionaries</a></li> 
         <li>| <a class="Topmenu1" href="javascript:void(0);">Word&nbsp;Grammar</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Wordformation</a></li>
-        <li>| <a class="Topmenu1" href="canoo_topbar_selected.html">Sentence&nbsp;Grammar</a></li>
+        <li>| <a class="Topmenu1Expanded" href="javascript:void(0);">Sentence&nbsp;Grammar</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Spelling (D)</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Glossary</a></li>
         <li>| <a class="Topmenu1" href="javascript:void(0);">Index</a> |</li> 
-
         </ul>
       </div>
     </div>
 
-    <div class="row">
+    <div  class="row">
       <div class="col-md-12" style="">
           <ul class="menu Topmenu2Selected">
-              <li>| <a class="Topmenu2" href="javascript:void(0);">Overview                </a>  </li>
-              <li>| <a class="Topmenu2" href="javascript:void(0);">Sentence&nbsp;Types     </a>  </li>
-              <li>| <a class="Topmenu2" href="javascript:void(0);">Constituents            </a>  </li>
-              <li>| <a class="Topmenu2" href="javascript:void(0);">Phrases                 </a>  </li>
+              <li>| <a class="Topmenu2" href="javascript:void(0);">Overview</a>  </li>
+              <li>| <a class="Topmenu2" href="javascript:void(0);">Sentence&nbsp;Types</a>  </li>
+              <li>| <a class="Topmenu2" href="javascript:void(0);">Constituents</a>  </li>
+              <li>| <a class="Topmenu2" href="javascript:void(0);">Phrases</a>  </li>
               <li>| <a class="Topmenu2" href="javascript:void(0);">Sentence&nbsp;Structures</a> </li>
-              <li>| <a class="Topmenu2" href="javascript:void(0);">Word&nbsp;order         </a>  </li>
-              <li>| <a class="Topmenu2" href="javascript:void(0);">Complex&nbsp;sentences  </a>  </li>
+              <li>| <a class="Topmenu2Selected" href="javascript:void(0);">Word&nbsp;order</a>  </li>
+              <li>| <a class="Topmenu2" href="javascript:void(0);">Complex&nbsp;sentences</a>  </li>
               <li>| <a class="Topmenu2" href="javascript:void(0);">Negation</a> | </li>
           </ul>
 
@@ -149,9 +177,11 @@
     </div>
   
     <div class="row">
-      <div class="col-md-3 pr-0">
-        <div class="contentWhite">
-         <div class = "Navbar1">
+      
+    <div class="col-md-3 pr-0">
+           <div class="contentWhite">
+       <div class = "Navbar1">
+
 <ul class="navbar">
   <li><a href="Wortstellung.html" class="Navbar1">Die&nbsp;Wortstellung</a></li>
     
@@ -222,7 +252,7 @@
 
       <div class="content">
         <ul>
-          <li><a href="javascript:void(0);" class="Navbar3Selected">Main</a></li>
+          <li><a href="javascript:void(0);" class="Navbar2">Main</a></li>
 
           <li>
             <button class="collapsible Navbar2">
@@ -300,7 +330,7 @@
           </li>
 
           <li><a href="javascript:void(0);" class="Navbar2">3.5.3.2.6: Alt vor neu</a></li>
-          <li><a href="javascript:void(0);" class="Navbar2">3.5.3.2.7: Bestimmt vor unbestimmt</a></li>
+          <li><a href="javascript:void(0);" class="Navbar2Selected">3.5.3.2.7: Bestimmt vor unbestimmt</a></li>
           <li><a href="javascript:void(0);" class="Navbar2">3.5.3.2.8: Pronomen vor Nomen</a></li>
           <li><a href="javascript:void(0);" class="Navbar2">3.5.3.2.9: Belebt vor unbelebt</a></li>
         </ul>
@@ -326,62 +356,186 @@
       </div>
     </li>
   </ul>
-
-
-
     </div>
 
          </div>
         </div> <!-- end contentwhite-->
 
-
       </div>
 
       <div class="col-md-9 pl-0"> <!--START MAIN COLUMN -->
+        <div class="contentWhite">
 
-          <div class="contentWhite">
+<h1 class="Headline">Form: Bestimmt vor unbestimmt</h1></td>
 
-        <h1 class="Headline" style="margin-top:0">Die Stellung der Adverbialbestimmungen im <a href="javascript:void(0);">Mittelfeld</a></h1>
+        
+        Der Artikelgebrauch kann die Stellung eines Satzgliedes im <a href="index.html">Mittelfeld</a> beeinflussen:
+        <ul>
+            <li>Nomen mit dem bestimmten Artikel haben die Tendenz links zu stehen;
+            </li><li>Nomen mit dem unbestimmten Artikel und artikellose Nomen haben die Tendenz rechts zu stehen.
+            
+                
+            
+        </li></ul>
+       <div class="flex">
+                   <div class="coltitle">  Bestimmt steht vor unbestimmt.</div> </div>
 
-    <p>Die Stellung der Adverbialbestimmungen ist im Deutschen sehr frei. Gewisse Stellungen werden aber dennoch anderen vorgezogen und einige Stellungen sind nicht m&ouml;glich. Die Regeln und Tendenzen, die der Stellung der Adverbiale zugrunde liegen sind zu komplex, als dass sie hier ausf&uuml;hrlich dargestellt werden k&ouml;nnten. Wir beschr&auml;nken uns auf eine allgemeine Beschreibung der wichtigsten Tendenzen.</p>
-<br>
-    <p>F&uuml;r die Stellung der Adverbialbestimmungen im Mittelfeld gilt die folgende allgemeine Tendenz:</p>
-
-
-<div class="flex2" style="gap:0.1em;"> 
-  <div class="coltitle grid1"><span>Subjekt</span></div> 
-  <div class="coltitle grid2"><span>&gt;</span></div>
-  <div class="coltitle grid1">Dativ&shy;objekt<br>und/oder<br>Ak&shy;kusativ&shy;objekt</div> 
-  <div class="coltitle grid2"><span>&gt;</span></div>
-  <div class="coltitle grid1"><span><b>Freie Adverbial&shy;bestim&shy;mung</b></span></div>
-  <div class="coltitle grid2"><span>&gt;</span></div>
-  <div class="coltitle grid1"><b>Gebun&shy;dene Adverbial&shy;bestim&shy;mung</b><br>
-     Genitiv&shy;objekt<br>
-        Pr&auml;posi&shy;tional&shy;objekt</div>   
-</div>
-
-<p>Bei der Stellung der Adverbialbestimmungen muss also zwischen freien Adverbialbestimmungen und  gebundenen (=&nbsp;obligatorischen und fakultativen) Adverbialbestimmungen unterschieden werden (siehe <a href="/web/20161012191816/http://www.canoo.net/services/OnlineGrammar/Satz/Satzglied/Adverbial/index.html#Anchor-Freie-49575">Freie, obligatorische und fakultative Adverbialbestimmungen</a>).<br>
-        <br>Wir beschreiben einerseits die Stellung der Adverbiale untereinander und andererseits die Stellung der Adverbiale gegen&uuml;ber anderen Satzgliedern:</p>
-
-<table class="t-c0-p2">
-            <tr>
-                <td class="colgrammar"><a href="Untereinander.html">Adverbiale untereinander</a></td>
-            </tr>
-            <tr>
-                <td class="colgrammar"><a href="AndereSatzglieder.html">Adverbiale und ander Satzglieder</a>&nbsp;&nbsp;</td>
-            </tr>
-        </table>
-
-<br />
-
-Zur Wortstellung der Negationsw&ouml;rter (<i>kein, nicht, nie</i> usw.) siehe <a href="/web/20161012191816/http://www.canoo.net/services/OnlineGrammar/Satz/Negation/Stellung/index.html">Die Wortstellung der Negationsw&ouml;rter</a>.<br>
-        <br>
-        <hr>
-        <br>
-        <br>
-        <br>
-
-<div class="contentCopyright">
+    <b>
+    Beispiele:</b><br>
+    <br>
+    <table cellpadding="0" cellspacing="2">
+      <tr>
+        <td nowrap><span class="examples">Er hat </span></td>
+        <td nowrap class="colexpl"><span class="explbold">dem Kind </span></td>
+        <td nowrap class="colexpl"><span class="explbold">S&uuml;&szlig;igkeiten</span></td>
+        <td><span class="examples">gegeben.</span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="colundertitle">bestimmt</td>
+        <td class="colundertitle">unbestimmt</td>
+        <td></td>
+      </tr>
+    </table>
+    <br>
+    <table cellpadding="0" cellspacing="2">
+      <tr>
+        <td nowrap><span class="examples">Er hat </span></td>
+        <td nowrap class="colexpl"><span class="explbold">die S&uuml;&szlig;igkeiten </span></td>
+        <td nowrap class="colexpl"><span class="explbold">einem Kind&nbsp;</span></td>
+        <td><span class="examples">gegeben.</span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="colundertitle">bestimmt</td>
+        <td class="colundertitle">unbestimmt</td>
+        <td></td>
+      </tr>
+    </table>
+    <br>
+    <table cellpadding="0" cellspacing="2">
+      <tr>
+        <td nowrap><span class="examples">Er hat </span></td>
+        <td nowrap class="colexpl"><span class="explbold">das Buch </span></td>
+        <td nowrap class="colexpl"><span class="explbold">gestern&nbsp;</span></td>
+        <td><span class="examples">gekauft.</span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="colundertitle">bestimmt</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <br>
+    <table cellpadding="0" cellspacing="2">
+      <tr>
+        <td nowrap><span class="examples">Er hat </span></td>
+        <td nowrap class="colexpl"><span class="explbold">gestern&nbsp;</span></td>
+        <td nowrap class="colexpl"><span class="explbold">ein Buch&nbsp;</span></td>
+        <td><span class="examples">gekauft.</span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="colundertitle">unbestimmt&nbsp;</td>
+        <td></td>
+      </tr>
+    </table>
+    <br>
+    NICHT:<span class="examples"> Er hat ein Buch gestern gekauft</span>.<br>
+    <br>
+    <hr>
+    <br>
+    Wenn alle Satzglieder bestimmt oder unbestimmt sind, wirken andere Tendenzen und Regeln. Zum Beispiel:<br>
+    <br>
+    <table cellpadding="0" cellspacing="2">
+      <tr>
+        <td nowrap><span class="examples">Er hat </span></td>
+        <td nowrap class="colexpl"><span class="explbold">einem Kind </span></td>
+        <td nowrap class="colexpl"><span class="explbold">S&uuml;&szlig;igkeiten</span></td>
+        <td><span class="examples">gegeben.</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="colundertitle">Dativobj. </td>
+        <td class="colundertitle">Akkusativobj.</td>
+        <td></td>
+        <td nowrap><font size="-1">Siehe: <a href="Objekt.html#Anchor-47857">Dativobjekt vor Akkusativobjekt</a></font></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><font size="-1">unbestimmt</font></td>
+        <td><font size="-1">unbestimmt</font></td>
+        <td></td>
+        <td nowrap></td>
+      </tr>
+    </table>
+    <br>
+    <table cellpadding="0" cellspacing="2">
+      <tr>
+        <td nowrap><span class="examples">Er hat </span></td>
+        <td nowrap class="colexpl"><span class="explbold">dem Kind </span></td>
+        <td nowrap class="colexpl"><span class="explbold">die S&uuml;&szlig;igkeiten&nbsp;</span></td>
+        <td><span class="examples">gegeben.</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="colundertitle">Dativobj. </td>
+        <td class="colundertitle">Akkusativobj.</td>
+        <td></td>
+        <td nowrap><font size="-1">Siehe: <a href="Objekt.html#Anchor-47857">Dativobjekt vor Akkusativobjekt</a></font></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><font size="-1">bestimmt</font></td>
+        <td><font size="-1">bestimmt</font></td>
+        <td></td>
+        <td nowrap></td>
+      </tr>
+    </table>
+    <br>
+    <table cellpadding="0" cellspacing="2">
+      <tr>
+        <td nowrap colspan="5"><span class="examples">Wo sind die Bonbons?</span></td>
+      </tr>
+      <tr>
+        <td nowrap><span class="examples">Er hat </span></td>
+        <td nowrap class="colexpl"><span class="explbold">die S&uuml;&szlig;igkeiten&nbsp;</span></td>
+        <td nowrap class="colexpl"><span class="explbold">dem Kind </span></td>
+        <td><span class="examples">gegeben.</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="colundertitle">
+          
+            &#132;alt&#147;</td>
+        <td class="colundertitle">&#132;neu&#147;</td>
+        <td></td>
+        <td nowrap><font size="-1">Siehe: <a href="Mitteilungswert.html">Alt vor neu</a></font></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><font size="-1">bestimmt</font></td>
+        <td><font size="-1">bestimmt</font></td>
+        <td></td>
+        <td nowrap></td>
+      </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    Die Tendenz 'Bestimmt vor unbestimmt' stimmt mit der Tendenz <a href="Mitteilungswert.html">&#132;Alte&#147; Information steht vor &#132;neuer&quot; Information</a> &uuml;berein. Der bestimmte Artikel wird in der Regel bei Bekanntem, bereits Erw&auml;hntem verwendet; der unbestimmte Artikel bei Neuem, noch nicht Erw&auml;hntem (siehe <a href="/web/20121110105307/http://www.canoo.net/services/OnlineGrammar/Wort/Artikel/Gebrauch/ArtDef.html">Gebrauch des bestimmten Artikels</a> und <a href="/web/20121110105307/http://www.canoo.net/services/OnlineGrammar/Wort/Artikel/Gebrauch/ArtIndef.html">Gebrauch des unbestimmten Artikels</a>).<br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+   
+  <div class="contentCopyright">
 <p class="tiny"><br><br>Copyright &copy; 2000-2016 <a href="https://web.archive.org/web/20160721042947/http://www.canoo.com/">Canoo Engineering AG</a>, Kirschgartenstr. 5, CH-4051 Basel, tel. +41 61 228 94 44. All Rights Reserved.</p>
 
 <p class="tiny">Bedeutungswörterbuch: Copyright &copy; 1996, 1997, 2011 by University of Tübingen.</p>
@@ -389,17 +543,13 @@ Zur Wortstellung der Negationsw&ouml;rter (<i>kein, nicht, nie</i> usw.) siehe <
 <p class="tiny"><a href="/web/20160721042947/http://www.canoo.net/services/ueberblick/nutzung.html">Nutzungsbedingungen/Datenschutz</a> | <a href="/web/20160721042947/http://www.canoo.net/services/ueberblick/kontakt.html">Impressum</a></p>
 
    </div>
-    
-     </div>
-      </div> <!--END MAIN COLUMN -->
+
+
+         </div> <!-- END CONTENTWHITE -->    
+     </div>   <!--END MAIN COLUMN -->
+      </div>  <!-- END ROW --> 
       
-
-    </div>
-
-
-</div> <!-- END MAIN CONTAINER -->
- 
-
+    </div>  <!-- END CONTAINER -->
 
 <script src="scripts/collapsible.js"></script>
 
